@@ -129,7 +129,7 @@ THF.prototype.init = function(options) {
 
 var city = new THF();
 
-var cameraOptions = {"capZoom":true,"capOrbit":true,"orbitCapLow":65,"orbitCapHigh":175,"coords":[13.398342,52.476684],"overpassGridUpdate":true,"overpassWayIntersect":false,"controls":{"enable":true},"target":[860.3848352080889,440.04424654556533],"cameraRadius":7349,"theta":7,"phi":154,"zoomCapLow":250,"zoomCapHigh":2000,"cameraFov":40,"near":2,"far":40000};
+var cameraOptions = {"capZoom":true,"capOrbit":true,"orbitCapLow":65,"orbitCapHigh":175,"coords":[9.22, 49.15],"overpassGridUpdate":true,"overpassWayIntersect":false,"controls":{"enable":true},"target":[860.3848352080889,440.04424654556533],"cameraRadius":7349,"theta":7,"phi":154,"zoomCapLow":250,"zoomCapHigh":2000,"cameraFov":40,"near":2,"far":40000};
 
 var wayPoints = {
   overview: {
@@ -137,7 +137,7 @@ var wayPoints = {
   },
   tempelhoferdamm: {
     cameraOptions: {
-      "capZoom":true,"capOrbit":true,"orbitCapLow":65,"orbitCapHigh":175,"coords":[13.398342,52.476684],"overpassGridUpdate":true,"overpassWayIntersect":false,"controls":{"enable":true},"target":[-1470.438942166035,716.3654002568528],"cameraRadius":1996,"theta":252,"phi":91,"zoomCapLow":250,"zoomCapHigh":2000,"cameraFov":40,"near":2,"far":40000
+      "capZoom":true,"capOrbit":true,"orbitCapLow":65,"orbitCapHigh":175,"coords":[9.22336, 49.15654],"overpassGridUpdate":true,"overpassWayIntersect":false,"controls":{"enable":true},"target":[-1470.438942166035,716.3654002568528],"cameraRadius":1996,"theta":252,"phi":91,"zoomCapLow":250,"zoomCapHigh":2000,"cameraFov":40,"near":2,"far":40000
     }
   },
   oderstrasse: {
@@ -198,7 +198,7 @@ city.init({
   camera: cameraOptions,
   // coords: [-0.01924, 51.50358] // Canary Wharf
   // coords: [13.381320, 52.498460] // Tempelhofer Ufer 23
-  coords: [13.398342, 52.476684] // Tempelhofer Feld
+  coords: [9.22, 49.15] // Tempelhofer Feld
   // coords: [-0.1159894466, 51.5045487479] // London Eye
   // coords: [-73.984762, 40.7516199] // NYC (performance-heavy)
 }).then(function(){

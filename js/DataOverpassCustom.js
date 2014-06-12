@@ -85,8 +85,8 @@
       return VIZI.DataOverpass.prototype.load.call(self, url, parameters, cacheKey);
     }
 
-    var allowedRange = ['17602-10752', '17602-10753', '17602-10754', '17603-10751', '17603-10752', '17603-10753', '17603-10754', '17604-10751', '17604-10752', '17604-10753', '17604-10754', '17605-10751', '17605-10752', '17605-10753', '17605-10754'];
-    if (allowedRange.indexOf(fileCacheKey) === -1) {
+    var allowedRange = ['17603-10752'];
+    if (1 == 2 && allowedRange.indexOf(fileCacheKey) === -1) {
       deferred.resolve();
     } else {
 
