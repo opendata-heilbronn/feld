@@ -1454,7 +1454,7 @@
             "type": "Feature",
             "id": "way/-639",
             "properties": {
-                "maxfloors" : "5",
+                "maxfloors" : "3",
                 "type": "way",
                 "id": "-639",
                 "tags": {
@@ -1577,7 +1577,7 @@
             "type": "Feature",
             "id": "way/-633",
             "properties": {
-                "maxfloors" : "5",
+                "maxfloors" : "4",
                 "type": "way",
                 "id": "-633",
                 "tags": {
@@ -1659,7 +1659,7 @@
             "type": "Feature",
             "id": "way/-629",
             "properties": {
-                "maxfloors" : "5",
+                "maxfloors" : "4",
                 "type": "way",
                 "id": "-629",
                 "tags": {
@@ -1700,7 +1700,7 @@
             "type": "Feature",
             "id": "way/-627",
             "properties": {
-                "maxfloors" : "5",
+                "maxfloors" : "4",
                 "type": "way",
                 "id": "-627",
                 "tags": {
@@ -1741,7 +1741,7 @@
             "type": "Feature",
             "id": "way/-625",
             "properties": {
-                "maxfloors" : "5",
+                "maxfloors" : "3",
                 "type": "way",
                 "id": "-625",
                 "tags": {
@@ -1782,7 +1782,7 @@
             "type": "Feature",
             "id": "way/-623",
             "properties": {
-                "maxfloors" : "5",
+                "maxfloors" : "3",
                 "type": "way",
                 "id": "-623",
                 "tags": {
@@ -1905,7 +1905,7 @@
             "type": "Feature",
             "id": "way/-617",
             "properties": {
-                "maxfloors" : "5",
+                "maxfloors" : "6",
                 "type": "way",
                 "id": "-617",
                 "tags": {
@@ -1962,7 +1962,7 @@
             "type": "Feature",
             "id": "way/-615",
             "properties": {
-                "maxfloors" : "5",
+                "maxfloors" : "7",
                 "type": "way",
                 "id": "-615",
                 "tags": {
@@ -2019,7 +2019,7 @@
             "type": "Feature",
             "id": "way/-613",
             "properties": {
-                "maxfloors" : "5",
+                "maxfloors" : "7",
                 "type": "way",
                 "id": "-613",
                 "tags": {
@@ -2068,7 +2068,7 @@
             "type": "Feature",
             "id": "way/-611",
             "properties": {
-                "maxfloors" : "5",
+                "maxfloors" : "6",
                 "type": "way",
                 "id": "-611",
                 "tags": {
@@ -2109,7 +2109,7 @@
             "type": "Feature",
             "id": "way/-609",
             "properties": {
-                "maxfloors" : "5",
+                "maxfloors" : "6",
                 "type": "way",
                 "id": "-609",
                 "tags": {
@@ -2199,7 +2199,7 @@
             "type": "Feature",
             "id": "way/-605",
             "properties": {
-                "maxfloors" : "5",
+                "maxfloors" : "7",
                 "type": "way",
                 "id": "-605",
                 "tags": {
@@ -2240,7 +2240,7 @@
             "type": "Feature",
             "id": "way/-603",
             "properties": {
-                "maxfloors" : "5",
+                "maxfloors" : "6",
                 "type": "way",
                 "id": "-603",
                 "tags": {
@@ -2322,7 +2322,7 @@
             "type": "Feature",
             "id": "way/-599",
             "properties": {
-                "maxfloors" : "5",
+                "maxfloors" : "6",
                 "type": "way",
                 "id": "-599",
                 "tags": {
@@ -2408,7 +2408,7 @@
             "type": "Feature",
             "id": "way/-595",
             "properties": {
-                "maxfloors" : "5",
+                "maxfloors" : "3",
                 "type": "way",
                 "id": "-595",
                 "tags": {
@@ -2449,7 +2449,7 @@
             "type": "Feature",
             "id": "way/-593",
             "properties": {
-                "maxfloors" : "5",
+                "maxfloors" : "3",
                 "type": "way",
                 "id": "-593",
                 "tags": {
@@ -2531,7 +2531,7 @@
             "type": "Feature",
             "id": "way/-589",
             "properties": {
-                "maxfloors" : "5",
+                "maxfloors" : "3",
                 "type": "way",
                 "id": "-589",
                 "tags": {
