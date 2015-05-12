@@ -161,6 +161,7 @@
             "id": "way/-699",
             "properties": {
                 "maxfloors" : "2",
+                "usage" : "Wohnen",
                 "type": "way",
                 "id": "-699",
                 "tags": {
@@ -1455,6 +1456,7 @@
             "id": "way/-639",
             "properties": {
                 "maxfloors" : "3",
+                "usage" : "Wohnen",
                 "type": "way",
                 "id": "-639",
                 "tags": {
@@ -1537,6 +1539,7 @@
             "id": "way/-635",
             "properties": {
                 "maxfloors" : "3",
+                "usage": "Bauen",
                 "type": "way",
                 "id": "-635",
                 "tags": {
@@ -1660,6 +1663,7 @@
             "id": "way/-629",
             "properties": {
                 "maxfloors" : "4",
+                "usage": "Bauen",
                 "type": "way",
                 "id": "-629",
                 "tags": {
