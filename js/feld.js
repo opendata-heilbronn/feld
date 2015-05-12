@@ -234,11 +234,18 @@ city.init({
   // cube.castShadow = true;
   // city.publish('addToScene', cube);
 
-  var buildings = [], features = [];
+   var buildings = [], features = [];
+  var usage = [];
 
   $('#new-buildings').change(function(){
     if ($(this).prop('checked')) {
-      var material = new THREE.MeshLambertMaterial({vertexColors: THREE.VertexColors})
+       //aufrufende Instanz:
+      console.log("Trigger-aufrufende Instanz: "+this);
+      var material = new THREE.MeshLambertMaterial({vertexColors: THREE.VertexColors,
+        //mit dieser Farbkombi lässt sich ein Unterschied zu den Blau-Farben erkennen ....
+       ambient: 0xa9bbd6,
+       color: 0xFF0000 
+      })
       _.each(features, function(feature){
         var obj = createExtrudedObject({
           coordinates: feature.geometry.coordinates,
@@ -257,20 +264,79 @@ city.init({
     }
   });
 
-  $.getJSON('buildings.geojson', function(geojson){
-    _.each(geojson.features, function(feature){
-      feature.properties.area = feature.properties.area || geoJSONArea(feature.geometry);
-      // city.data.processArea(feature.geometry.coordinates[0]);
-      if (!feature.properties.height) {
-        if (feature.properties.maxfloors) {
-          feature.properties.height = feature.properties.maxfloors * 3.14;
-        } else {
-          feature.properties.height = 22;
-        }
+  function go(dummy){
+    var uses = ['Wohnen', 'Bauen'];
+    var colours = ['0xeeeeee',"0xa9bbd6"]
+  //  console.log(uses[1]);
+  //  console.log(colours[1]);
+
+
+    for (var i = 0; i < uses.length; i++) {
+      if (dummy === uses[i]){
+    //    console.log(i);
+    // colours =  colours[i]
+         // Besser mit Hash oder Doppelarray?! 
+ /*   if (dummy) {
+      console.log(dummy+ " kommt in Funktion an")
+    };
+    */
+      //aufrufende Instanz:
+      console.log("Funktion-aufrufende Instanz: "+this);
+  //     var material = new THREE.MeshLambertMaterial({vertexColors: THREE.VertexColors})
+     
+      var color = new THREE.MeshLambertMaterial({vertexColors: THREE.VertexColors,
+       ambient: 0x222222,
+       color: colours[i]
+      }); 
+      _.each(features, function(feature){
+        var obj = createExtrudedObject({
+          coordinates: feature.geometry.coordinates,
+          properties: _.defaults(feature.properties, {
+            roof: {}
+          })
+        }, city.geo, color);
+        console.log(obj);
+        buildings.push(obj);
+        city.publish('addToScene', obj);
+      });
+     
+ /*   else {
+      _.each(buildings, function(obj){
+        city.publish('removeFromScene', obj);
+      });
+      buildings = [];
+    } */
       }
-      // console.log(feature.properties);
-      features.push(feature);
-      $('#new-buildings').prop('checked', true).change();
+    };
+  }
+
+//  $('#new-buildings').change(go(0));
+
+  $.getJSON('buildings.geojson', function(geojson){
+    var usage;
+    _.each(geojson.features, function(feature){
+      usage = feature.properties.usage;  
+  
+        feature.properties.area = feature.properties.area || geoJSONArea(feature.geometry);
+        // city.data.processArea(feature.geometry.coordinates[0]);
+        if (!feature.properties.height) {
+          if (feature.properties.maxfloors) {
+            feature.properties.height = feature.properties.maxfloors * 3.14;
+          } else {
+            feature.properties.height = 22;
+          }
+        }
+        // console.log(feature.properties);
+        features.push(feature);
+        if (usage){
+          go(usage);
+        }
+        else {
+          $('#new-buildings').prop('checked', true).change();
+        }
+//die (nicht sichtbare) Control 'Zeige Gebäude' wird ANgehakt
+
+    
     });
   });
 });
