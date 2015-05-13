@@ -158,7 +158,7 @@ var triggerTween = function(city, wayPoint){
   var current = {theta: options.theta, phi: options.phi, target0: options.target[0], target1: options.target[1], cameraRadius: options.cameraRadius};
   var next = wayPoints[wayPoint].cameraOptions;
   var target = {theta: next.theta, phi: next.phi, target0: next.target[0], target1: next.target[1], cameraRadius: next.cameraRadius};
-  var tween = new TWEEN.Tween(current).to(target, 1500);
+  var tween = new TWEEN.Tween(current).to(target, 5000).easing(TWEEN.Easing.Bounce.InOut).delay(1500);//.easing(TWEEN.Easing.Sinusoidal.EaseInOut);
   tween.onUpdate(function(){
     console.log('tween', this);
     options.target = [this.target0, this.target1];
