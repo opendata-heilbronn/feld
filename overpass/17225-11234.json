@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API",
   "osm3s": {
-    "timestamp_osm_base": "2015-01-29T18:32:01Z",
+    "timestamp_osm_base": "2015-05-14T22:00:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -32869,30 +32869,6 @@
 },
 {
   "type": "node",
-  "id": 2765265133,
-  "lat": 49.1376374,
-  "lon": 9.2479265
-},
-{
-  "type": "node",
-  "id": 2765265140,
-  "lat": 49.1376602,
-  "lon": 9.2477960
-},
-{
-  "type": "node",
-  "id": 2765265148,
-  "lat": 49.1377671,
-  "lon": 9.2479794
-},
-{
-  "type": "node",
-  "id": 2765265159,
-  "lat": 49.1377899,
-  "lon": 9.2478489
-},
-{
-  "type": "node",
   "id": 2767476850,
   "lat": 49.1327667,
   "lon": 9.2434348
@@ -36282,8 +36258,8 @@
 {
   "type": "node",
   "id": 2988809588,
-  "lat": 49.1367620,
-  "lon": 9.2476572
+  "lat": 49.1367628,
+  "lon": 9.2476564
 },
 {
   "type": "node",
@@ -36294,8 +36270,8 @@
 {
   "type": "node",
   "id": 2988809592,
-  "lat": 49.1368029,
-  "lon": 9.2475148
+  "lat": 49.1368036,
+  "lon": 9.2475104
 },
 {
   "type": "node",
@@ -36306,14 +36282,14 @@
 {
   "type": "node",
   "id": 2988809595,
-  "lat": 49.1368306,
-  "lon": 9.2477028
+  "lat": 49.1368462,
+  "lon": 9.2477108
 },
 {
   "type": "node",
   "id": 2988809596,
-  "lat": 49.1368716,
-  "lon": 9.2475607
+  "lat": 49.1368870,
+  "lon": 9.2475649
 },
 {
   "type": "node",
@@ -39851,6 +39827,54 @@
   "id": 3297086034,
   "lat": 49.1333040,
   "lon": 9.2427161
+},
+{
+  "type": "node",
+  "id": 3423508993,
+  "lat": 49.1374151,
+  "lon": 9.2473253
+},
+{
+  "type": "node",
+  "id": 3423508994,
+  "lat": 49.1374348,
+  "lon": 9.2471873
+},
+{
+  "type": "node",
+  "id": 3423509093,
+  "lat": 49.1375331,
+  "lon": 9.2473647
+},
+{
+  "type": "node",
+  "id": 3423509193,
+  "lat": 49.1375529,
+  "lon": 9.2472267
+},
+{
+  "type": "node",
+  "id": 3423509293,
+  "lat": 49.1376400,
+  "lon": 9.2479175
+},
+{
+  "type": "node",
+  "id": 3423509393,
+  "lat": 49.1376844,
+  "lon": 9.2477675
+},
+{
+  "type": "node",
+  "id": 3423509394,
+  "lat": 49.1377662,
+  "lon": 9.2478242
+},
+{
+  "type": "node",
+  "id": 3423509493,
+  "lat": 49.1377218,
+  "lon": 9.2479742
 },
 {
   "type": "way",
@@ -44710,7 +44734,7 @@
     "capacity": "40",
     "cuisine": "thai",
     "name": "Brauns Weinstube",
-    "opening_hours": "Dienstag – Samstag ab 17 Uhr Sonntag von 11:45 – 14:30 Uhr und ab  17 Uhr Montag Ruhetag",
+    "opening_hours": "Tu-Sa 17:00+; Su 11:45-14:30,17:00+",
     "smoking": "outside"
   }
 },
@@ -58224,7 +58248,7 @@
   ],
   "tags": {
     "building": "yes",
-    "construction": "yes"
+    "fixme": "Neubau, Umriss geschätzt"
   }
 },
 {
@@ -58243,9 +58267,7 @@
     "addr:housenumber": "26",
     "addr:postcode": "74074",
     "addr:street": "Eberhard-Gmelin-Straße",
-    "building": "yes",
-    "construction": "yes",
-    "fixme": "neubau, umriss unbekannt"
+    "building": "yes"
   }
 },
 {
@@ -58600,8 +58622,7 @@
     "addr:housenumber": "31; 31/1",
     "addr:postcode": "74074",
     "addr:street": "Badener Straße",
-    "building": "yes",
-    "layer": "0"
+    "building": "yes"
   }
 },
 {
@@ -58620,8 +58641,7 @@
     "addr:housenumber": "33; 33/1",
     "addr:postcode": "74074",
     "addr:street": "Badener Straße",
-    "building": "yes",
-    "layer": "0"
+    "building": "yes"
   }
 },
 {
@@ -58640,8 +58660,7 @@
     "addr:housenumber": "35; 35/1",
     "addr:postcode": "74074",
     "addr:street": "Badener Straße",
-    "building": "yes",
-    "layer": "0"
+    "building": "yes"
   }
 },
 {
@@ -58660,8 +58679,7 @@
     "addr:housenumber": "37; 37/1",
     "addr:postcode": "74074",
     "addr:street": "Badener Straße",
-    "building": "yes",
-    "layer": "0"
+    "building": "yes"
   }
 },
 {
@@ -58680,8 +58698,7 @@
     "addr:housenumber": "39; 39/1",
     "addr:postcode": "74074",
     "addr:street": "Badener Straße",
-    "building": "yes",
-    "layer": "0"
+    "building": "yes"
   }
 },
 {
@@ -58700,8 +58717,7 @@
     "addr:housenumber": "41; 41/1",
     "addr:postcode": "74074",
     "addr:street": "Badener Straße",
-    "building": "yes",
-    "layer": "0"
+    "building": "yes"
   }
 },
 {
@@ -58720,8 +58736,7 @@
     "addr:housenumber": "43; 43/1",
     "addr:postcode": "74074",
     "addr:street": "Badener Straße",
-    "building": "yes",
-    "layer": "0"
+    "building": "yes"
   }
 },
 {
@@ -58740,8 +58755,7 @@
     "addr:housenumber": "45; 45/1",
     "addr:postcode": "74074",
     "addr:street": "Badener Straße",
-    "building": "yes",
-    "layer": "0"
+    "building": "yes"
   }
 },
 {
@@ -58760,8 +58774,7 @@
     "addr:housenumber": "47; 47/1",
     "addr:postcode": "74074",
     "addr:street": "Badener Straße",
-    "building": "yes",
-    "layer": "0"
+    "building": "yes"
   }
 },
 {
@@ -58780,8 +58793,7 @@
     "addr:housenumber": "49; 49/1",
     "addr:postcode": "74074",
     "addr:street": "Badener Straße",
-    "building": "yes",
-    "layer": "0"
+    "building": "yes"
   }
 },
 {
@@ -59099,7 +59111,6 @@
     "addr:postcode": "74074",
     "addr:street": "Eberhard-Gmelin-Straße",
     "building": "yes",
-    "construction": "yes",
     "fixme": "neubau, umriss unbekannt"
   }
 },
@@ -59120,7 +59131,6 @@
     "addr:postcode": "74074",
     "addr:street": "Eberhard-Gmelin-Straße",
     "building": "yes",
-    "construction": "yes",
     "fixme": "neubau, umriss unbekannt"
   }
 },
@@ -59499,8 +59509,7 @@
     "addr:postcode": "74074",
     "addr:street": "Eberhard-Gmelin-Straße",
     "building": "yes",
-    "construction": "yes",
-    "note": "in Bau"
+    "fixme": "Neubau, Umriss geschätzt"
   }
 },
 {
@@ -61588,7 +61597,13 @@
     2444605931
   ],
   "tags": {
-    "building": "yes"
+    "addr:city": "Heilbronn",
+    "addr:country": "DE",
+    "addr:housenumber": "195",
+    "addr:postcode": "74074",
+    "addr:street": "Badener Straße",
+    "building": "yes",
+    "fixme": "Neubau, Umriss geschätzt"
   }
 },
 {
@@ -61670,20 +61685,6 @@
 },
 {
   "type": "way",
-  "id": 271571099,
-  "nodes": [
-    2765265140,
-    2765265159,
-    2765265148,
-    2765265133,
-    2765265140
-  ],
-  "tags": {
-    "building": "yes"
-  }
-},
-{
-  "type": "way",
   "id": 271571103,
   "nodes": [
     2765264971,
@@ -61714,6 +61715,11 @@
     2767477012
   ],
   "tags": {
+    "addr:city": "Heilbronn",
+    "addr:country": "DE",
+    "addr:housenumber": "210",
+    "addr:postcode": "74074",
+    "addr:street": "Badener Straße",
     "building": "yes",
     "note": "Neubau, Umriss geschätzt"
   }
@@ -61744,6 +61750,11 @@
     2767477030
   ],
   "tags": {
+    "addr:city": "Heilbronn",
+    "addr:country": "DE",
+    "addr:housenumber": "206",
+    "addr:postcode": "74074",
+    "addr:street": "Badener Straße",
     "building": "yes",
     "note": "Neubau, Umriss geschätzt"
   }
@@ -61788,6 +61799,11 @@
     2767477050
   ],
   "tags": {
+    "addr:city": "Heilbronn",
+    "addr:country": "DE",
+    "addr:housenumber": "24",
+    "addr:postcode": "74074",
+    "addr:street": "Will-Schaber-Straße",
     "building": "yes"
   }
 },
@@ -61802,6 +61818,11 @@
     2767477061
   ],
   "tags": {
+    "addr:city": "Heilbronn",
+    "addr:country": "DE",
+    "addr:housenumber": "40",
+    "addr:postcode": "74074",
+    "addr:street": "Will-Schaber-Straße",
     "building": "yes",
     "note": "Neubau, Umriss geschätzt"
   }
@@ -61817,6 +61838,11 @@
     2767477019
   ],
   "tags": {
+    "addr:city": "Heilbronn",
+    "addr:country": "DE",
+    "addr:housenumber": "208",
+    "addr:postcode": "74074",
+    "addr:street": "Badener Straße",
     "building": "yes",
     "note": "Neubau, Umriss geschätzt"
   }
@@ -61866,6 +61892,11 @@
     2767477065
   ],
   "tags": {
+    "addr:city": "Heilbronn",
+    "addr:country": "DE",
+    "addr:housenumber": "154",
+    "addr:postcode": "74074",
+    "addr:street": "Badener Straße",
     "building": "yes",
     "note": "Neubau, Umriss geschätzt"
   }
@@ -64021,6 +64052,41 @@
     "addr:street": "Im Gemmingstal",
     "building": "garage",
     "source": "LGL, www.lgl-bw.de"
+  }
+},
+{
+  "type": "way",
+  "id": 335234451,
+  "nodes": [
+    3423509093,
+    3423508993,
+    3423508994,
+    3423509193,
+    3423509093
+  ],
+  "tags": {
+    "building": "yes",
+    "fixme": "Neubau, Umriss geschätzt"
+  }
+},
+{
+  "type": "way",
+  "id": 335234452,
+  "nodes": [
+    3423509394,
+    3423509493,
+    3423509293,
+    3423509393,
+    3423509394
+  ],
+  "tags": {
+    "addr:city": "Heilbronn",
+    "addr:country": "DE",
+    "addr:housenumber": "17",
+    "addr:postcode": "74074",
+    "addr:street": "Eberhard-Gmelin-Straße",
+    "building": "yes",
+    "fixme": "Neubau, Umriss geschätzt"
   }
 }
 

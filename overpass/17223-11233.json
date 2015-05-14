@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API",
   "osm3s": {
-    "timestamp_osm_base": "2015-01-29T18:32:01Z",
+    "timestamp_osm_base": "2015-05-14T21:59:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -171,7 +171,7 @@
 {
   "type": "node",
   "id": 29690151,
-  "lat": 49.1395842,
+  "lat": 49.1396815,
   "lon": 9.2210732
 },
 {
@@ -246,14 +246,14 @@
 {
   "type": "node",
   "id": 249173787,
-  "lat": 49.1406179,
-  "lon": 9.2218903
+  "lat": 49.1406329,
+  "lon": 9.2219010
 },
 {
   "type": "node",
   "id": 249173789,
-  "lat": 49.1407834,
-  "lon": 9.2219929,
+  "lat": 49.1407433,
+  "lon": 9.2219699,
   "tags": {
     "crossing": "traffic_signals",
     "highway": "traffic_signals"
@@ -904,84 +904,6 @@
   "id": 415770782,
   "lat": 49.1417811,
   "lon": 9.2198445
-},
-{
-  "type": "node",
-  "id": 415770786,
-  "lat": 49.1424757,
-  "lon": 9.2186300
-},
-{
-  "type": "node",
-  "id": 415770787,
-  "lat": 49.1425993,
-  "lon": 9.2186255
-},
-{
-  "type": "node",
-  "id": 415770789,
-  "lat": 49.1424748,
-  "lon": 9.2182348
-},
-{
-  "type": "node",
-  "id": 415770793,
-  "lat": 49.1429255,
-  "lon": 9.2193962
-},
-{
-  "type": "node",
-  "id": 415770798,
-  "lat": 49.1431012,
-  "lon": 9.2188296
-},
-{
-  "type": "node",
-  "id": 415770799,
-  "lat": 49.1430479,
-  "lon": 9.2194712
-},
-{
-  "type": "node",
-  "id": 415770800,
-  "lat": 49.1429226,
-  "lon": 9.2194452
-},
-{
-  "type": "node",
-  "id": 415770809,
-  "lat": 49.1428340,
-  "lon": 9.2183275
-},
-{
-  "type": "node",
-  "id": 415770810,
-  "lat": 49.1430977,
-  "lon": 9.2184144
-},
-{
-  "type": "node",
-  "id": 415770811,
-  "lat": 49.1430647,
-  "lon": 9.2188221
-},
-{
-  "type": "node",
-  "id": 415770816,
-  "lat": 49.1425976,
-  "lon": 9.2182408
-},
-{
-  "type": "node",
-  "id": 415770817,
-  "lat": 49.1426917,
-  "lon": 9.2182439
-},
-{
-  "type": "node",
-  "id": 415770818,
-  "lat": 49.1428386,
-  "lon": 9.2182929
 },
 {
   "type": "node",
@@ -2527,8 +2449,8 @@
 {
   "type": "node",
   "id": 419866746,
-  "lat": 49.1401677,
-  "lon": 9.2192896
+  "lat": 49.1401687,
+  "lon": 9.2192910
 },
 {
   "type": "node",
@@ -2557,8 +2479,8 @@
 {
   "type": "node",
   "id": 419866751,
-  "lat": 49.1401773,
-  "lon": 9.2194158
+  "lat": 49.1401764,
+  "lon": 9.2194161
 },
 {
   "type": "node",
@@ -3171,6 +3093,12 @@
 },
 {
   "type": "node",
+  "id": 436584449,
+  "lat": 49.1418873,
+  "lon": 9.2212107
+},
+{
+  "type": "node",
   "id": 436584451,
   "lat": 49.1417520,
   "lon": 9.2201794
@@ -3186,6 +3114,18 @@
   "id": 436584462,
   "lat": 49.1416526,
   "lon": 9.2201485
+},
+{
+  "type": "node",
+  "id": 436605877,
+  "lat": 49.1418327,
+  "lon": 9.2216374
+},
+{
+  "type": "node",
+  "id": 436605878,
+  "lat": 49.1417327,
+  "lon": 9.2216102
 },
 {
   "type": "node",
@@ -4499,29 +4439,15 @@
 },
 {
   "type": "node",
-  "id": 641364351,
-  "lat": 49.1405657,
-  "lon": 9.2218465,
-  "tags": {
-    "crossing": "traffic_signals",
-    "highway": "traffic_signals"
-  }
-},
-{
-  "type": "node",
   "id": 641364352,
   "lat": 49.1406123,
-  "lon": 9.2217042,
-  "tags": {
-    "crossing": "traffic_signals",
-    "highway": "traffic_signals"
-  }
+  "lon": 9.2217042
 },
 {
   "type": "node",
   "id": 641364353,
-  "lat": 49.1408289,
-  "lon": 9.2218237,
+  "lat": 49.1407777,
+  "lon": 9.2217946,
   "tags": {
     "crossing": "traffic_signals",
     "highway": "traffic_signals"
@@ -6323,8 +6249,8 @@
 {
   "type": "node",
   "id": 976079106,
-  "lat": 49.1457613,
-  "lon": 9.2240250
+  "lat": 49.1456947,
+  "lon": 9.2240318
 },
 {
   "type": "node",
@@ -6639,12 +6565,6 @@
 },
 {
   "type": "node",
-  "id": 976120580,
-  "lat": 49.1425966,
-  "lon": 9.2193332
-},
-{
-  "type": "node",
   "id": 976120584,
   "lat": 49.1424503,
   "lon": 9.2181573
@@ -6879,6 +6799,18 @@
 },
 {
   "type": "node",
+  "id": 976856336,
+  "lat": 49.1420492,
+  "lon": 9.2212177
+},
+{
+  "type": "node",
+  "id": 976856361,
+  "lat": 49.1424202,
+  "lon": 9.2210909
+},
+{
+  "type": "node",
   "id": 976902960,
   "lat": 49.1408228,
   "lon": 9.2201335
@@ -6918,6 +6850,12 @@
   "id": 976976307,
   "lat": 49.1451277,
   "lon": 9.2236839
+},
+{
+  "type": "node",
+  "id": 980694079,
+  "lat": 49.1425390,
+  "lon": 9.2210866
 },
 {
   "type": "node",
@@ -16824,8 +16762,8 @@
 {
   "type": "node",
   "id": 1232733511,
-  "lat": 49.1405469,
-  "lon": 9.2218296
+  "lat": 49.1405640,
+  "lon": 9.2218434
 },
 {
   "type": "node",
@@ -20333,6 +20271,12 @@
 },
 {
   "type": "node",
+  "id": 1233023090,
+  "lat": 49.1386728,
+  "lon": 9.2235184
+},
+{
+  "type": "node",
   "id": 1233023092,
   "lat": 49.1385386,
   "lon": 9.2236321
@@ -20980,8 +20924,8 @@
 {
   "type": "node",
   "id": 1234073005,
-  "lat": 49.1392389,
-  "lon": 9.2212697
+  "lat": 49.1392390,
+  "lon": 9.2212696
 },
 {
   "type": "node",
@@ -21052,7 +20996,7 @@
 {
   "type": "node",
   "id": 1234073018,
-  "lat": 49.1392134,
+  "lat": 49.1392133,
   "lon": 9.2217671
 },
 {
@@ -21083,7 +21027,7 @@
   "type": "node",
   "id": 1234073023,
   "lat": 49.1393403,
-  "lon": 9.2212818
+  "lon": 9.2212819
 },
 {
   "type": "node",
@@ -23312,16 +23256,19 @@
   "lat": 49.1461230,
   "lon": 9.2211136,
   "tags": {
-    "barrier": "entrance",
     "bicycle": "no",
+    "entrance": "yes",
     "foot": "yes"
   }
 },
 {
   "type": "node",
   "id": 1271308048,
-  "lat": 49.1455928,
-  "lon": 9.2209997
+  "lat": 49.1455921,
+  "lon": 9.2209995,
+  "tags": {
+    "entrance": "main"
+  }
 },
 {
   "type": "node",
@@ -23346,6 +23293,180 @@
   "id": 1479095053,
   "lat": 49.1440123,
   "lon": 9.2211936
+},
+{
+  "type": "node",
+  "id": 1479095055,
+  "lat": 49.1454500,
+  "lon": 9.2220053
+},
+{
+  "type": "node",
+  "id": 1479095056,
+  "lat": 49.1454536,
+  "lon": 9.2220330
+},
+{
+  "type": "node",
+  "id": 1479095057,
+  "lat": 49.1454578,
+  "lon": 9.2219722
+},
+{
+  "type": "node",
+  "id": 1479095058,
+  "lat": 49.1454646,
+  "lon": 9.2220493
+},
+{
+  "type": "node",
+  "id": 1479095059,
+  "lat": 49.1454713,
+  "lon": 9.2219576
+},
+{
+  "type": "node",
+  "id": 1479095060,
+  "lat": 49.1454795,
+  "lon": 9.2221030
+},
+{
+  "type": "node",
+  "id": 1479095061,
+  "lat": 49.1454802,
+  "lon": 9.2220813
+},
+{
+  "type": "node",
+  "id": 1479095062,
+  "lat": 49.1454834,
+  "lon": 9.2220525
+},
+{
+  "type": "node",
+  "id": 1479095063,
+  "lat": 49.1454859,
+  "lon": 9.2221290
+},
+{
+  "type": "node",
+  "id": 1479095064,
+  "lat": 49.1454862,
+  "lon": 9.2220639
+},
+{
+  "type": "node",
+  "id": 1479095065,
+  "lat": 49.1454876,
+  "lon": 9.2219511
+},
+{
+  "type": "node",
+  "id": 1479095066,
+  "lat": 49.1455029,
+  "lon": 9.2219532
+},
+{
+  "type": "node",
+  "id": 1479095067,
+  "lat": 49.1455043,
+  "lon": 9.2221507
+},
+{
+  "type": "node",
+  "id": 1479095068,
+  "lat": 49.1455136,
+  "lon": 9.2219652
+},
+{
+  "type": "node",
+  "id": 1479095069,
+  "lat": 49.1455192,
+  "lon": 9.2221572
+},
+{
+  "type": "node",
+  "id": 1479095070,
+  "lat": 49.1455228,
+  "lon": 9.2219532
+},
+{
+  "type": "node",
+  "id": 1479095071,
+  "lat": 49.1455331,
+  "lon": 9.2221518
+},
+{
+  "type": "node",
+  "id": 1479095072,
+  "lat": 49.1455377,
+  "lon": 9.2219429
+},
+{
+  "type": "node",
+  "id": 1479095073,
+  "lat": 49.1455437,
+  "lon": 9.2221350
+},
+{
+  "type": "node",
+  "id": 1479095074,
+  "lat": 49.1455483,
+  "lon": 9.2221193
+},
+{
+  "type": "node",
+  "id": 1479095075,
+  "lat": 49.1455537,
+  "lon": 9.2219440
+},
+{
+  "type": "node",
+  "id": 1479095076,
+  "lat": 49.1455554,
+  "lon": 9.2221209
+},
+{
+  "type": "node",
+  "id": 1479095077,
+  "lat": 49.1455661,
+  "lon": 9.2219511
+},
+{
+  "type": "node",
+  "id": 1479095078,
+  "lat": 49.1455700,
+  "lon": 9.2221160
+},
+{
+  "type": "node",
+  "id": 1479095079,
+  "lat": 49.1455771,
+  "lon": 9.2219657
+},
+{
+  "type": "node",
+  "id": 1479095080,
+  "lat": 49.1455831,
+  "lon": 9.2221003
+},
+{
+  "type": "node",
+  "id": 1479095082,
+  "lat": 49.1455870,
+  "lon": 9.2219896
+},
+{
+  "type": "node",
+  "id": 1479095083,
+  "lat": 49.1455927,
+  "lon": 9.2220672
+},
+{
+  "type": "node",
+  "id": 1479095085,
+  "lat": 49.1455945,
+  "lon": 9.2220319
 },
 {
   "type": "node",
@@ -23539,11 +23660,15 @@
     "addr:postcode": "74072",
     "addr:street": "Eichgasse",
     "amenity": "restaurant",
+    "contact:email": "veloheilbronn@aol.de",
+    "contact:facebook": "www.facebook.com/pages/VELO-Heilbronn/251591478226733",
+    "contact:phone": "071317905907",
     "cuisine": "vegetarian;vegan",
     "diet:vegan": "only",
-    "entrance": "yes",
-    "name": "Velo",
-    "opening_hours": "Mo 10:00-16:00; Tu-Sa 10:00-22:00; Su,PH off",
+    "diet:vegetarian": "yey",
+    "name": "VELO",
+    "opening_hours": "Mo 10:00-16:00, Tu-Sa 10:00-22:00;Su,PH off",
+    "smoking": "no",
     "wheelchair": "no"
   }
 },
@@ -24146,8 +24271,8 @@
 {
   "type": "node",
   "id": 1844329295,
-  "lat": 49.1401422,
-  "lon": 9.2192977,
+  "lat": 49.1401420,
+  "lon": 9.2192948,
   "tags": {
     "entrance": "yes"
   }
@@ -24169,6 +24294,12 @@
   "id": 1943409794,
   "lat": 49.1422975,
   "lon": 9.2179826
+},
+{
+  "type": "node",
+  "id": 1943409804,
+  "lat": 49.1423174,
+  "lon": 9.2181437
 },
 {
   "type": "node",
@@ -26445,11 +26576,33 @@
 },
 {
   "type": "node",
+  "id": 2421898591,
+  "lat": 49.1386419,
+  "lon": 9.2229306
+},
+{
+  "type": "node",
+  "id": 2421898593,
+  "lat": 49.1389988,
+  "lon": 9.2235632
+},
+{
+  "type": "node",
+  "id": 2421898595,
+  "lat": 49.1390333,
+  "lon": 9.2228675
+},
+{
+  "type": "node",
   "id": 2463727274,
   "lat": 49.1395883,
   "lon": 9.2265601,
   "tags": {
-    "entrance": "yes"
+    "entrance": "yes",
+    "wheelchair": "limited",
+    "wheelchair:description": "viele Stufen, many steps",
+    "wheelchair:description:de": "viele Stufen",
+    "wheelchair:description:en": "many steps"
   }
 },
 {
@@ -26458,7 +26611,11 @@
   "lat": 49.1396036,
   "lon": 9.2272546,
   "tags": {
-    "entrance": "yes"
+    "entrance": "yes",
+    "wheelchair": "limited",
+    "wheelchair:description": "viele Stufen, many steps",
+    "wheelchair:description:de": "viele Stufen",
+    "wheelchair:description:en": "many steps"
   }
 },
 {
@@ -26467,7 +26624,11 @@
   "lat": 49.1396132,
   "lon": 9.2263089,
   "tags": {
-    "entrance": "service"
+    "entrance": "service",
+    "wheelchair": "limited",
+    "wheelchair:description": "viele Stufen, many steps",
+    "wheelchair:description:de": "viele Stufen",
+    "wheelchair:description:en": "many steps"
   }
 },
 {
@@ -26476,7 +26637,11 @@
   "lat": 49.1396151,
   "lon": 9.2269937,
   "tags": {
-    "entrance": "yes"
+    "entrance": "yes",
+    "wheelchair": "limited",
+    "wheelchair:description": "viele Stufen, many steps",
+    "wheelchair:description:de": "viele Stufen",
+    "wheelchair:description:en": "many steps"
   }
 },
 {
@@ -26506,10 +26671,14 @@
 {
   "type": "node",
   "id": 2463727289,
-  "lat": 49.1397926,
-  "lon": 9.2268045,
+  "lat": 49.1397959,
+  "lon": 9.2267453,
   "tags": {
-    "entrance": "yes"
+    "entrance": "yes",
+    "wheelchair": "limited",
+    "wheelchair:description": "viele Stufen, many steps",
+    "wheelchair:description:de": "viele Stufen",
+    "wheelchair:description:en": "many steps"
   }
 },
 {
@@ -26542,7 +26711,11 @@
   "lat": 49.1399670,
   "lon": 9.2268341,
   "tags": {
-    "entrance": "main"
+    "entrance": "main",
+    "wheelchair": "limited",
+    "wheelchair:description": "viele Stufen, many steps",
+    "wheelchair:description:de": "viele Stufen",
+    "wheelchair:description:en": "many steps"
   }
 },
 {
@@ -26591,14 +26764,14 @@
 {
   "type": "node",
   "id": 2504656717,
-  "lat": 49.1401066,
-  "lon": 9.2192986
+  "lat": 49.1401056,
+  "lon": 9.2193001
 },
 {
   "type": "node",
   "id": 2504656718,
-  "lat": 49.1401123,
-  "lon": 9.2194256
+  "lat": 49.1401134,
+  "lon": 9.2194252
 },
 {
   "type": "node",
@@ -27560,12 +27733,6 @@
   "id": 2711450496,
   "lat": 49.1454297,
   "lon": 9.2212341
-},
-{
-  "type": "node",
-  "id": 2711450499,
-  "lat": 49.1455005,
-  "lon": 9.2214792
 },
 {
   "type": "node",
@@ -33622,8 +33789,8 @@
 {
   "type": "node",
   "id": 2987238233,
-  "lat": 49.1417994,
-  "lon": 9.2210443
+  "lat": 49.1417991,
+  "lon": 9.2210400
 },
 {
   "type": "node",
@@ -33654,18 +33821,6 @@
   "id": 2987238241,
   "lat": 49.1418539,
   "lon": 9.2214755
-},
-{
-  "type": "node",
-  "id": 2987238242,
-  "lat": 49.1418568,
-  "lon": 9.2210621
-},
-{
-  "type": "node",
-  "id": 2987238243,
-  "lat": 49.1418574,
-  "lon": 9.2210570
 },
 {
   "type": "node",
@@ -33922,8 +34077,8 @@
 {
   "type": "node",
   "id": 2987238290,
-  "lat": 49.1420480,
-  "lon": 9.2211412
+  "lat": 49.1420481,
+  "lon": 9.2211411
 },
 {
   "type": "node",
@@ -33934,7 +34089,7 @@
 {
   "type": "node",
   "id": 2987238292,
-  "lat": 49.1420482,
+  "lat": 49.1420481,
   "lon": 9.2212781
 },
 {
@@ -33946,8 +34101,8 @@
 {
   "type": "node",
   "id": 2987238294,
-  "lat": 49.1420494,
-  "lon": 9.2210703
+  "lat": 49.1420493,
+  "lon": 9.2210700
 },
 {
   "type": "node",
@@ -33965,13 +34120,13 @@
   "type": "node",
   "id": 2987238298,
   "lat": 49.1420506,
-  "lon": 9.2211412
+  "lon": 9.2211413
 },
 {
   "type": "node",
   "id": 2987238300,
-  "lat": 49.1420519,
-  "lon": 9.2210699
+  "lat": 49.1420520,
+  "lon": 9.2210702
 },
 {
   "type": "node",
@@ -33982,8 +34137,8 @@
 {
   "type": "node",
   "id": 2987238302,
-  "lat": 49.1420545,
-  "lon": 9.2209334
+  "lat": 49.1420544,
+  "lon": 9.2209332
 },
 {
   "type": "node",
@@ -34109,7 +34264,7 @@
   "type": "node",
   "id": 2987238323,
   "lat": 49.1421562,
-  "lon": 9.2211922
+  "lon": 9.2211923
 },
 {
   "type": "node",
@@ -34126,14 +34281,14 @@
 {
   "type": "node",
   "id": 2987238326,
-  "lat": 49.1421595,
-  "lon": 9.2211282
+  "lat": 49.1421606,
+  "lon": 9.2211280
 },
 {
   "type": "node",
   "id": 2987238327,
   "lat": 49.1421603,
-  "lon": 9.2210285
+  "lon": 9.2210284
 },
 {
   "type": "node",
@@ -34145,31 +34300,31 @@
   "type": "node",
   "id": 2987238329,
   "lat": 49.1421619,
-  "lon": 9.2209375
+  "lon": 9.2209377
 },
 {
   "type": "node",
   "id": 2987238331,
   "lat": 49.1421622,
-  "lon": 9.2211926
+  "lon": 9.2211925
 },
 {
   "type": "node",
   "id": 2987238332,
-  "lat": 49.1421623,
-  "lon": 9.2210939
+  "lat": 49.1421612,
+  "lon": 9.2210941
 },
 {
   "type": "node",
   "id": 2987238333,
   "lat": 49.1421633,
-  "lon": 9.2211278
+  "lon": 9.2211281
 },
 {
   "type": "node",
   "id": 2987238334,
-  "lat": 49.1421636,
-  "lon": 9.2210285
+  "lat": 49.1421644,
+  "lon": 9.2210286
 },
 {
   "type": "node",
@@ -34180,8 +34335,8 @@
 {
   "type": "node",
   "id": 2987238336,
-  "lat": 49.1421640,
-  "lon": 9.2210945
+  "lat": 49.1421632,
+  "lon": 9.2210942
 },
 {
   "type": "node",
@@ -36117,15 +36272,6 @@
 },
 {
   "type": "node",
-  "id": 3131064311,
-  "lat": 49.1424750,
-  "lon": 9.2184317,
-  "tags": {
-    "entrance": "main"
-  }
-},
-{
-  "type": "node",
   "id": 3149686910,
   "lat": 49.1389288,
   "lon": 9.2193543
@@ -36479,6 +36625,214 @@
   }
 },
 {
+  "type": "node",
+  "id": 3363018393,
+  "lat": 49.1405046,
+  "lon": 9.2217824,
+  "tags": {
+    "crossing": "traffic_signals",
+    "highway": "traffic_signals"
+  }
+},
+{
+  "type": "node",
+  "id": 3363018394,
+  "lat": 49.1405676,
+  "lon": 9.2216661,
+  "tags": {
+    "crossing": "traffic_signals",
+    "highway": "traffic_signals"
+  }
+},
+{
+  "type": "node",
+  "id": 3376130313,
+  "lat": 49.1393231,
+  "lon": 9.2216162
+},
+{
+  "type": "node",
+  "id": 3376130314,
+  "lat": 49.1393252,
+  "lon": 9.2215761
+},
+{
+  "type": "node",
+  "id": 3376130315,
+  "lat": 49.1393538,
+  "lon": 9.2216199
+},
+{
+  "type": "node",
+  "id": 3376130316,
+  "lat": 49.1393559,
+  "lon": 9.2215798
+},
+{
+  "type": "node",
+  "id": 3376161232,
+  "lat": 49.1393461,
+  "lon": 9.2264604,
+  "tags": {
+    "entrance": "emergency"
+  }
+},
+{
+  "type": "node",
+  "id": 3376161234,
+  "lat": 49.1394473,
+  "lon": 9.2270572,
+  "tags": {
+    "entrance": "service",
+    "layer": "-1",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 3376161239,
+  "lat": 49.1396245,
+  "lon": 9.2264359,
+  "tags": {
+    "entrance": "yes",
+    "wheelchair": "limited",
+    "wheelchair:description": "viele Stufen, many steps",
+    "wheelchair:description:de": "viele Stufen",
+    "wheelchair:description:en": "many steps"
+  }
+},
+{
+  "type": "node",
+  "id": 3376161241,
+  "lat": 49.1397281,
+  "lon": 9.2270996,
+  "tags": {
+    "entrance": "service",
+    "layer": "-1"
+  }
+},
+{
+  "type": "node",
+  "id": 3376161249,
+  "lat": 49.1398353,
+  "lon": 9.2269998,
+  "tags": {
+    "entrance": "service",
+    "layer": "-1"
+  }
+},
+{
+  "type": "node",
+  "id": 3376161250,
+  "lat": 49.1398364,
+  "lon": 9.2269805
+},
+{
+  "type": "node",
+  "id": 3376756791,
+  "lat": 49.1448722,
+  "lon": 9.2209827,
+  "tags": {
+    "entrance": "main"
+  }
+},
+{
+  "type": "node",
+  "id": 3376756792,
+  "lat": 49.1451222,
+  "lon": 9.2225028
+},
+{
+  "type": "node",
+  "id": 3376772793,
+  "lat": 49.1451663,
+  "lon": 9.2225149
+},
+{
+  "type": "node",
+  "id": 3376772794,
+  "lat": 49.1452472,
+  "lon": 9.2207522
+},
+{
+  "type": "node",
+  "id": 3376772795,
+  "lat": 49.1452476,
+  "lon": 9.2206281
+},
+{
+  "type": "node",
+  "id": 3376783779,
+  "lat": 49.1424008,
+  "lon": 9.2195756
+},
+{
+  "type": "node",
+  "id": 3376783780,
+  "lat": 49.1424508,
+  "lon": 9.2195911
+},
+{
+  "type": "node",
+  "id": 3437155972,
+  "lat": 49.1452381,
+  "lon": 9.2174829
+},
+{
+  "type": "node",
+  "id": 3437155973,
+  "lat": 49.1452483,
+  "lon": 9.2174235
+},
+{
+  "type": "node",
+  "id": 3437155988,
+  "lat": 49.1454781,
+  "lon": 9.2175789
+},
+{
+  "type": "node",
+  "id": 3437155989,
+  "lat": 49.1454883,
+  "lon": 9.2175195
+},
+{
+  "type": "node",
+  "id": 3513579872,
+  "lat": 49.1417799,
+  "lon": 9.2211963
+},
+{
+  "type": "node",
+  "id": 3513579873,
+  "lat": 49.1421557,
+  "lon": 9.2212213
+},
+{
+  "type": "node",
+  "id": 3513579874,
+  "lat": 49.1423741,
+  "lon": 9.2179534
+},
+{
+  "type": "node",
+  "id": 3513579875,
+  "lat": 49.1423833,
+  "lon": 9.2172809
+},
+{
+  "type": "node",
+  "id": 3513579876,
+  "lat": 49.1426197,
+  "lon": 9.2178134
+},
+{
+  "type": "node",
+  "id": 3513579877,
+  "lat": 49.1426288,
+  "lon": 9.2211030
+},
+{
   "type": "way",
   "id": 4163639,
   "nodes": [
@@ -36669,6 +37023,7 @@
     "addr:street": "Am Wollhaus",
     "amenity": "public_building",
     "building": "commercial",
+    "height": "32",
     "name": "Wollhauszentrum",
     "shop": "mall",
     "source": "LGL, www.lgl-bw.de",
@@ -36697,7 +37052,6 @@
     2711450503,
     318697336,
     318697338,
-    2711450499,
     318697340,
     318697342,
     976150630,
@@ -36727,6 +37081,7 @@
     "addr:street": "Berliner Platz",
     "amenity": "public_building",
     "building": "commercial",
+    "height": "32",
     "name": "K3",
     "source": "LGL, www.lgl-bw.de"
   }
@@ -36755,6 +37110,7 @@
     2463727285,
     319045394,
     1109288213,
+    3376161239,
     319045393,
     2463727280,
     319045364,
@@ -36771,12 +37127,16 @@
     1109288184,
     1109288257,
     912118079,
+    3376161234,
     1109288216,
     1109288265,
     2463727278,
     1109288210,
     912118087,
+    3376161241,
     319045368,
+    3376161249,
+    3376161250,
     1109288233,
     1109288193,
     2463727289,
@@ -36801,12 +37161,14 @@
   "id": 29010342,
   "nodes": [
     319045393,
+    3376161239,
     1109288213,
     319045394,
     1109288189,
     2463727274,
     319045395,
     1109288229,
+    3376161232,
     1109288199,
     319045396,
     1109288273,
@@ -36815,6 +37177,7 @@
     319045393
   ],
   "tags": {
+    "amenity": "school",
     "building": "yes",
     "leisure": "sports_centre",
     "name": "Keplerhalle"
@@ -36835,7 +37198,8 @@
     "lit": "yes",
     "maxspeed": "50",
     "name": "Wollhausstraße",
-    "oneway": "yes"
+    "oneway": "yes",
+    "turn:lanes": "slight_left|right"
   }
 },
 {
@@ -37143,46 +37507,13 @@
     "amenity": "place_of_worship",
     "building": "church",
     "denomination": "protestant",
+    "height": "64",
     "name": "Kilianskirche",
     "religion": "christian",
     "tourism": "attraction",
     "wheelchair": "limited",
     "wheelchair:description": "Barriererfreier Zugang über die Südseite der Kirche",
-    "wikipedia": "de:Kilianskirche_(Heilbronn)"
-  }
-},
-{
-  "type": "way",
-  "id": 35445120,
-  "nodes": [
-    415770786,
-    415770787,
-    976120580,
-    415770793,
-    415770800,
-    415770799,
-    415770798,
-    415770811,
-    415770810,
-    415770809,
-    415770818,
-    415770817,
-    415770816,
-    415770789,
-    3131064311,
-    415770786
-  ],
-  "tags": {
-    "addr:city": "Heilbronn",
-    "addr:country": "DE",
-    "addr:housenumber": "7",
-    "addr:postcode": "74072",
-    "addr:street": "Marktplatz",
-    "amenity": "townhall",
-    "building": "yes",
-    "name": "Rathaus Heilbronn",
-    "tourism": "attraction",
-    "wikipedia:de": "Rathaus_(Heilbronn)"
+    "wikipedia": "de:Kilianskirche (Heilbronn)"
   }
 },
 {
@@ -37358,6 +37689,7 @@
     "denomination": "catholic",
     "name": "St. Peter und Paul",
     "religion": "christian",
+    "wikipedia": "http://de.m.wikipedia.org/wiki/Deutschordensmünster_St._Peter_und_Paul_(Heilbronn)",
     "wikipedia:de": "Deutschordensm%C3%BCnster_St._Peter_und_Paul_%28Heilbronn%29"
   }
 },
@@ -37494,17 +37826,21 @@
     416667279,
     976120584,
     741475843,
+    1943409804,
     416667280,
     416667281,
     416667282,
     416667283,
+    3513579874,
     416667284,
     416667285,
     416667286,
+    3513579876,
     416667287,
     416667288,
     416667289,
     416667290,
+    3513579875,
     416667291,
     416667292,
     1943409726,
@@ -37522,6 +37858,7 @@
     416667288,
     416667289,
     416667290,
+    3513579875,
     416667291,
     416666247,
     416666245,
@@ -37536,9 +37873,11 @@
     416667281,
     416667282,
     416667283,
+    3513579874,
     416667284,
     416667285,
     416667286,
+    3513579876,
     416667287
   ],
   "tags": {
@@ -37728,8 +38067,10 @@
     741488993,
     1945932320,
     1945932319,
+    3376783780,
     416676147,
     416676152,
+    3376783779,
     416676151
   ],
   "tags": {
@@ -38551,8 +38892,6 @@
     2987238267,
     2987238247,
     2987238233,
-    2987238242,
-    2987238243,
     2987238245,
     2987238249,
     2987238255,
@@ -38579,12 +38918,12 @@
     2987238275,
     2987238254,
     2987238245,
-    2987238243,
-    2987238242,
     2987238233,
+    3513579872,
     2987235232,
     2987238250,
     2987238251,
+    436584449,
     2987238252
   ],
   "tags": {
@@ -38626,8 +38965,10 @@
     2987238240,
     2987238239,
     2987238235,
+    436605877,
     2987238237,
     2987235229,
+    436605878,
     2987235226,
     2987235227,
     2987235225,
@@ -38998,10 +39339,14 @@
     "addr:postcode": "74072",
     "addr:street": "Berliner Platz",
     "amenity": "theatre",
-    "building": "yes",
+    "building": "civic",
+    "fax": "+49 7131 563139",
     "name": "Theater Heilbronn",
+    "phone": "+49 7131 563000",
     "source": "LGL, www.lgl-bw.de",
-    "wheelchair": "yes"
+    "website": "www.theater-heilbronn.de",
+    "wheelchair": "yes",
+    "wikipedia:de": "Stadttheater Heilbronn"
   }
 },
 {
@@ -39055,6 +39400,7 @@
     618356406,
     535453042,
     2271834341,
+    3376756791,
     535453050,
     535453060,
     535453035
@@ -39770,9 +40116,11 @@
     2711450453,
     618915518,
     619379650,
+    3376756792,
     2711450473,
     619379660,
     619379653,
+    3376772793,
     619379657,
     2711450482,
     748353419,
@@ -41500,6 +41848,7 @@
   "nodes": [
     2987236106,
     2987236089,
+    980694079,
     2987236086,
     2987236062,
     2987236060,
@@ -41513,6 +41862,7 @@
     2987236070,
     2987236098,
     2987236105,
+    3513579877,
     2987236106
   ],
   "tags": {
@@ -43271,6 +43621,7 @@
   "id": 83918117,
   "nodes": [
     2987132193,
+    3376772795,
     2987132189,
     2987132190,
     2987132188,
@@ -43282,6 +43633,7 @@
     2987132180,
     976732616,
     1945932368,
+    3376772794,
     2987132192,
     2987132193
   ],
@@ -43638,8 +43990,10 @@
     2987238294,
     2987238290,
     2987238298,
+    976856336,
     2987238292,
     2987238319,
+    3513579873,
     2987238323
   ],
   "tags": {
@@ -43668,6 +44022,7 @@
     2987238375,
     2987238377,
     2987238413,
+    976856361,
     2987238415,
     2987238419,
     2987238420
@@ -43834,9 +44189,11 @@
   ],
   "tags": {
     "highway": "primary",
+    "lanes": "3",
     "maxspeed": "50",
     "name": "Allee",
-    "oneway": "yes"
+    "oneway": "yes",
+    "turn:lanes": "hgv|through|through;right"
   }
 },
 {
@@ -47503,6 +47860,7 @@
     "addr:postcode": "74072",
     "addr:street": "Allee",
     "building": "yes",
+    "height": "45",
     "name": "Shoppinghaus"
   }
 },
@@ -50698,6 +51056,11 @@
     1232830032
   ],
   "tags": {
+    "addr:city": "Heilbronn",
+    "addr:country": "DE",
+    "addr:housenumber": "17/1",
+    "addr:postcode": "74072",
+    "addr:street": "Wollhausstraße",
     "building": "yes"
   }
 },
@@ -52177,7 +52540,8 @@
     "addr:housenumber": "14",
     "addr:postcode": "74072",
     "addr:street": "Am Wollhaus",
-    "building": "yes"
+    "building": "yes",
+    "height": "26"
   }
 },
 {
@@ -52241,23 +52605,6 @@
     "name": "SZ Käthe",
     "official_name": "Soziales Zentrum Käthe",
     "website": "http://www.sz-kaethe.de/"
-  }
-},
-{
-  "type": "way",
-  "id": 107364049,
-  "nodes": [
-    1234072986,
-    1234072978,
-    1234072979,
-    1234073017,
-    1234073028,
-    1234073022,
-    1234073000,
-    1234072986
-  ],
-  "tags": {
-    "building": "yes"
   }
 },
 {
@@ -52347,6 +52694,7 @@
   ],
   "tags": {
     "building": "yes",
+    "height": "32",
     "name": "Heilbronner Stimme",
     "website": "www.stimme.de"
   }
@@ -52435,13 +52783,24 @@
   "type": "way",
   "id": 107364074,
   "nodes": [
-    1234073023,
-    1234073032,
+    3376130313,
     1234073010,
     1234073018,
     1234073005,
     1234073013,
-    1234073023
+    1234073023,
+    1234073032,
+    3376130314,
+    3376130316,
+    1234073000,
+    1234072986,
+    1234072978,
+    1234072979,
+    1234073017,
+    1234073028,
+    1234073022,
+    3376130315,
+    3376130313
   ],
   "tags": {
     "addr:city": "Heilbronn",
@@ -52684,15 +53043,15 @@
   "id": 107584345,
   "nodes": [
     1236286201,
-    29690151,
-    976104365,
-    976104360
+    29690151
   ],
   "tags": {
     "highway": "primary",
+    "lanes": "3",
     "maxspeed": "50",
     "name": "Allee",
-    "oneway": "yes"
+    "oneway": "yes",
+    "turn:lanes": "left|through|through"
   }
 },
 {
@@ -53854,6 +54213,46 @@
 },
 {
   "type": "way",
+  "id": 134543746,
+  "nodes": [
+    1479095079,
+    1479095082,
+    1479095085,
+    1479095083,
+    1479095080,
+    1479095078,
+    1479095076,
+    1479095074,
+    1479095073,
+    1479095071,
+    1479095069,
+    1479095067,
+    1479095063,
+    1479095060,
+    1479095061,
+    1479095064,
+    1479095062,
+    1479095058,
+    1479095056,
+    1479095055,
+    1479095057,
+    1479095059,
+    1479095065,
+    1479095066,
+    1479095068,
+    1479095070,
+    1479095072,
+    1479095075,
+    1479095077,
+    1479095079
+  ],
+  "tags": {
+    "natural": "water",
+    "source:outline": "Bing"
+  }
+},
+{
+  "type": "way",
   "id": 141462535,
   "nodes": [
     1239562060,
@@ -53908,6 +54307,7 @@
   "tags": {
     "construction": "tertiary",
     "highway": "primary",
+    "lanes": "2",
     "maxspeed": "50",
     "name": "Am Wollhaus",
     "oneway": "yes"
@@ -57220,8 +57620,10 @@
   ],
   "tags": {
     "highway": "primary",
+    "lanes": "2",
     "maxspeed": "50",
-    "name": "Allee"
+    "name": "Allee",
+    "turn:lanes": "right;through|through"
   }
 },
 {
@@ -57267,7 +57669,7 @@
     2222860790
   ],
   "tags": {
-    "building": "yes",
+    "building": "apartments",
     "name": "Domizil Riverside"
   }
 },
@@ -57611,6 +58013,25 @@
   ],
   "tags": {
     "landuse": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 233864891,
+  "nodes": [
+    2421898591,
+    2421898595,
+    2421898593,
+    1233023090,
+    2421898591
+  ],
+  "tags": {
+    "addr:city": "Heilbronn",
+    "addr:country": "DE",
+    "addr:housenumber": "7",
+    "addr:postcode": "74072",
+    "addr:street": "Uhlandstraße",
+    "building": "yes"
   }
 },
 {
@@ -58252,11 +58673,11 @@
   "id": 267040032,
   "nodes": [
     1232733511,
-    641364351,
     249173787
   ],
   "tags": {
     "highway": "primary",
+    "lanes": "2",
     "maxspeed": "50",
     "name": "Allee",
     "oneway": "yes"
@@ -58287,13 +58708,11 @@
     667971851,
     797799571,
     249173786,
-    289877315,
-    1232804256,
-    976104367,
-    1232733511
+    289877315
   ],
   "tags": {
     "highway": "primary",
+    "lanes": "2",
     "maxspeed": "50",
     "name": "Allee",
     "oneway": "yes"
@@ -58308,7 +58727,7 @@
   ],
   "tags": {
     "highway": "primary",
-    "lanes": "3",
+    "lanes": "2",
     "lit": "yes",
     "maxspeed": "50",
     "name": "Am Wollhaus",
@@ -58548,6 +58967,7 @@
   "nodes": [
     25185400,
     641364352,
+    3363018394,
     1232733604,
     1232733649,
     1652552669,
@@ -58555,9 +58975,11 @@
   ],
   "tags": {
     "highway": "primary",
+    "lanes": "3",
     "maxspeed": "50",
     "name": "Allee",
-    "oneway": "yes"
+    "oneway": "yes",
+    "turn:lanes": "hgv|right;through|through"
   }
 },
 {
@@ -59954,6 +60376,55 @@
     "addr:postcode": "74072",
     "addr:street": "Große Bahngasse",
     "building": "commercial"
+  }
+},
+{
+  "type": "way",
+  "id": 329421297,
+  "nodes": [
+    29690151,
+    976104365,
+    976104360
+  ],
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "50",
+    "name": "Allee",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 329421298,
+  "nodes": [
+    289877315,
+    1232804256,
+    976104367,
+    3363018393,
+    1232733511
+  ],
+  "tags": {
+    "highway": "primary",
+    "lanes": "3",
+    "maxspeed": "50",
+    "name": "Allee",
+    "oneway": "yes",
+    "turn:lanes": "left|through|through;right"
+  }
+},
+{
+  "type": "way",
+  "id": 336659761,
+  "nodes": [
+    3437155989,
+    3437155988,
+    3437155972,
+    3437155973,
+    3437155989
+  ],
+  "tags": {
+    "natural": "water"
   }
 }
 

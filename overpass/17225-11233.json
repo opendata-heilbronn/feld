@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API",
   "osm3s": {
-    "timestamp_osm_base": "2015-01-29T18:32:01Z",
+    "timestamp_osm_base": "2015-05-14T21:59:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -21459,6 +21459,12 @@
 },
 {
   "type": "node",
+  "id": 1070634814,
+  "lat": 49.1432977,
+  "lon": 9.2377204
+},
+{
+  "type": "node",
   "id": 1070655749,
   "lat": 49.1417438,
   "lon": 9.2397573
@@ -23888,8 +23894,8 @@
 {
   "type": "node",
   "id": 1229421867,
-  "lat": 49.1419805,
-  "lon": 9.2388957
+  "lat": 49.1421895,
+  "lon": 9.2386976
 },
 {
   "type": "node",
@@ -23972,8 +23978,8 @@
 {
   "type": "node",
   "id": 1229423022,
-  "lat": 49.1415654,
-  "lon": 9.2390567
+  "lat": 49.1415647,
+  "lon": 9.2390578
 },
 {
   "type": "node",
@@ -30476,6 +30482,36 @@
   "lon": 9.2421927
 },
 {
+  "type": "node",
+  "id": 3442789700,
+  "lat": 49.1431544,
+  "lon": 9.2377848
+},
+{
+  "type": "node",
+  "id": 3442822195,
+  "lat": 49.1424598,
+  "lon": 9.2383222
+},
+{
+  "type": "node",
+  "id": 3442822595,
+  "lat": 49.1432457,
+  "lon": 9.2376364
+},
+{
+  "type": "node",
+  "id": 3442826994,
+  "lat": 49.1431825,
+  "lon": 9.2378515
+},
+{
+  "type": "node",
+  "id": 3442833193,
+  "lat": 49.1426024,
+  "lon": 9.2383090
+},
+{
   "type": "way",
   "id": 4096137,
   "nodes": [
@@ -30490,12 +30526,12 @@
     1129513455
   ],
   "tags": {
-    "footway": "left",
     "highway": "tertiary",
     "lanes": "2",
     "lit": "yes",
     "maxspeed": "50",
-    "name": "Jägerhausstraße"
+    "name": "Jägerhausstraße",
+    "sidewalk": "left"
   }
 },
 {
@@ -30613,13 +30649,13 @@
     2261369141
   ],
   "tags": {
-    "footway": "both",
     "highway": "tertiary",
     "lanes:backward": "2",
     "lanes:forward": "1",
     "lit": "yes",
     "maxspeed": "50",
     "name": "Jägerhausstraße",
+    "sidewalk": "both",
     "turn:lanes:backward": "left|none"
   }
 },
@@ -44346,12 +44382,12 @@
     1027985820
   ],
   "tags": {
-    "footway": "both",
     "highway": "tertiary",
     "junction": "roundabout",
     "lanes": "1",
     "lit": "yes",
-    "name": "Jägerhausstraße"
+    "name": "Jägerhausstraße",
+    "sidewalk": "both"
   }
 },
 {
@@ -44991,6 +45027,12 @@
     1229423387,
     1044908394,
     1229421867,
+    3442833193,
+    3442789700,
+    3442826994,
+    1070634814,
+    3442822595,
+    3442822195,
     1229422944,
     1229422899,
     1229422633,
@@ -45162,12 +45204,12 @@
     30050052
   ],
   "tags": {
-    "footway": "left",
     "highway": "tertiary",
     "lanes": "2",
     "lit": "yes",
     "maxspeed": "50",
     "name": "Jägerhausstraße",
+    "sidewalk": "left",
     "width": "7"
   }
 },
@@ -45332,7 +45374,6 @@
     21777630
   ],
   "tags": {
-    "footway": "left",
     "highway": "tertiary",
     "lanes": "3",
     "lanes:backward": "2",
@@ -45340,6 +45381,7 @@
     "lit": "yes",
     "maxspeed": "50",
     "name": "Jägerhausstraße",
+    "sidewalk": "left",
     "turn:lanes:backward": "left|none"
   }
 },
@@ -46589,12 +46631,12 @@
     700234007
   ],
   "tags": {
-    "footway": "both",
     "highway": "tertiary",
     "lanes": "2",
     "lit": "yes",
     "maxspeed": "50",
-    "name": "Jägerhausstraße"
+    "name": "Jägerhausstraße",
+    "sidewalk": "both"
   }
 },
 {

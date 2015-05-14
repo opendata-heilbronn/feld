@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API",
   "osm3s": {
-    "timestamp_osm_base": "2015-01-29T18:32:01Z",
+    "timestamp_osm_base": "2015-05-14T21:59:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1050,62 +1050,62 @@
 {
   "type": "node",
   "id": 420417793,
-  "lat": 49.1405087,
-  "lon": 9.2045585
+  "lat": 49.1405054,
+  "lon": 9.2045547
 },
 {
   "type": "node",
   "id": 420417794,
-  "lat": 49.1406280,
-  "lon": 9.2045226
+  "lat": 49.1406275,
+  "lon": 9.2045232
 },
 {
   "type": "node",
   "id": 420417796,
-  "lat": 49.1405372,
-  "lon": 9.2047807
+  "lat": 49.1405301,
+  "lon": 9.2047740
 },
 {
   "type": "node",
   "id": 420417807,
-  "lat": 49.1406036,
-  "lon": 9.2043669
+  "lat": 49.1405986,
+  "lon": 9.2043218
 },
 {
   "type": "node",
   "id": 420417809,
-  "lat": 49.1404551,
-  "lon": 9.2039703
+  "lat": 49.1404482,
+  "lon": 9.2039904
 },
 {
   "type": "node",
   "id": 420417810,
-  "lat": 49.1404615,
-  "lon": 9.2040230
+  "lat": 49.1404535,
+  "lon": 9.2040271
 },
 {
   "type": "node",
   "id": 420417811,
-  "lat": 49.1401220,
+  "lat": 49.1401207,
   "lon": 9.2041205
 },
 {
   "type": "node",
   "id": 420417812,
-  "lat": 49.1401454,
-  "lon": 9.2043108
+  "lat": 49.1401521,
+  "lon": 9.2043088
 },
 {
   "type": "node",
   "id": 420417813,
-  "lat": 49.1404784,
-  "lon": 9.2042152
+  "lat": 49.1404859,
+  "lon": 9.2042151
 },
 {
   "type": "node",
   "id": 420417814,
-  "lat": 49.1405007,
-  "lon": 9.2043965
+  "lat": 49.1405020,
+  "lon": 9.2043513
 },
 {
   "type": "node",
@@ -1916,14 +1916,14 @@
 {
   "type": "node",
   "id": 632342909,
-  "lat": 49.1464491,
-  "lon": 9.1958402
+  "lat": 49.1464500,
+  "lon": 9.1958331
 },
 {
   "type": "node",
   "id": 632342911,
-  "lat": 49.1468563,
-  "lon": 9.1959899
+  "lat": 49.1468600,
+  "lon": 9.1959583
 },
 {
   "type": "node",
@@ -3862,14 +3862,14 @@
 {
   "type": "node",
   "id": 867901014,
-  "lat": 49.1468194,
-  "lon": 9.1959787
+  "lat": 49.1467412,
+  "lon": 9.1959225
 },
 {
   "type": "node",
   "id": 867901078,
-  "lat": 49.1465893,
-  "lon": 9.1958933
+  "lat": 49.1466376,
+  "lon": 9.1958903
 },
 {
   "type": "node",
@@ -10226,26 +10226,26 @@
 {
   "type": "node",
   "id": 1310142470,
-  "lat": 49.1410037,
-  "lon": 9.2046826
+  "lat": 49.1410060,
+  "lon": 9.2046756
 },
 {
   "type": "node",
   "id": 1310142472,
-  "lat": 49.1408516,
-  "lon": 9.2038306
+  "lat": 49.1408303,
+  "lon": 9.2037644
 },
 {
   "type": "node",
   "id": 1310142474,
-  "lat": 49.1406815,
-  "lon": 9.2038746
+  "lat": 49.1406602,
+  "lon": 9.2038170
 },
 {
   "type": "node",
   "id": 1310142477,
-  "lat": 49.1408377,
-  "lon": 9.2047298
+  "lat": 49.1408419,
+  "lon": 9.2047214
 },
 {
   "type": "node",
@@ -10526,44 +10526,44 @@
 {
   "type": "node",
   "id": 1616895055,
-  "lat": 49.1407080,
-  "lon": 9.2041157
+  "lat": 49.1406962,
+  "lon": 9.2040967
 },
 {
   "type": "node",
   "id": 1616895063,
-  "lat": 49.1407696,
-  "lon": 9.2040999
+  "lat": 49.1407599,
+  "lon": 9.2040766
 },
 {
   "type": "node",
   "id": 1616895074,
-  "lat": 49.1408762,
-  "lon": 9.2040674
+  "lat": 49.1408596,
+  "lon": 9.2040373
 },
 {
   "type": "node",
   "id": 1616895075,
-  "lat": 49.1409059,
-  "lon": 9.2040606
+  "lat": 49.1408988,
+  "lon": 9.2040233
 },
 {
   "type": "node",
   "id": 1616895077,
-  "lat": 49.1409255,
-  "lon": 9.2040764
+  "lat": 49.1409193,
+  "lon": 9.2040463
 },
 {
   "type": "node",
   "id": 1616895079,
-  "lat": 49.1409377,
-  "lon": 9.2041017
+  "lat": 49.1409315,
+  "lon": 9.2040730
 },
 {
   "type": "node",
   "id": 1616895081,
-  "lat": 49.1409425,
-  "lon": 9.2041310
+  "lat": 49.1409363,
+  "lon": 9.2041023
 },
 {
   "type": "node",
@@ -13360,105 +13360,27 @@
 },
 {
   "type": "node",
-  "id": 2181220539,
-  "lat": 49.1405442,
-  "lon": 9.2048350
-},
-{
-  "type": "node",
   "id": 2181220542,
-  "lat": 49.1405718,
-  "lon": 9.2041077
-},
-{
-  "type": "node",
-  "id": 2181220544,
-  "lat": 49.1405850,
-  "lon": 9.2047697
-},
-{
-  "type": "node",
-  "id": 2181220546,
-  "lat": 49.1405916,
-  "lon": 9.2048208
+  "lat": 49.1405716,
+  "lon": 9.2041239
 },
 {
   "type": "node",
   "id": 2181220548,
-  "lat": 49.1405920,
-  "lon": 9.2039416
-},
-{
-  "type": "node",
-  "id": 2181220550,
-  "lat": 49.1405928,
-  "lon": 9.2039131
+  "lat": 49.1405550,
+  "lon": 9.2039607
 },
 {
   "type": "node",
   "id": 2181220552,
-  "lat": 49.1406115,
-  "lon": 9.2040959
-},
-{
-  "type": "node",
-  "id": 2181220554,
-  "lat": 49.1406149,
-  "lon": 9.2041166
+  "lat": 49.1405768,
+  "lon": 9.2041222
 },
 {
   "type": "node",
   "id": 2181220556,
-  "lat": 49.1406430,
-  "lon": 9.2046392
-},
-{
-  "type": "node",
-  "id": 2181220558,
-  "lat": 49.1406615,
-  "lon": 9.2038989
-},
-{
-  "type": "node",
-  "id": 2181220560,
-  "lat": 49.1406835,
-  "lon": 9.2040946
-},
-{
-  "type": "node",
-  "id": 2181220562,
-  "lat": 49.1406937,
-  "lon": 9.2047371
-},
-{
-  "type": "node",
-  "id": 2181220564,
-  "lat": 49.1406999,
-  "lon": 9.2047854
-},
-{
-  "type": "node",
-  "id": 2181220566,
-  "lat": 49.1407334,
-  "lon": 9.2046121
-},
-{
-  "type": "node",
-  "id": 2181220568,
-  "lat": 49.1407348,
-  "lon": 9.2047158
-},
-{
-  "type": "node",
-  "id": 2181220570,
-  "lat": 49.1407421,
-  "lon": 9.2047727
-},
-{
-  "type": "node",
-  "id": 2181220572,
-  "lat": 49.1407463,
-  "lon": 9.2047124
+  "lat": 49.1406539,
+  "lon": 9.2047409
 },
 {
   "type": "node",
@@ -14071,6 +13993,42 @@
   "lon": 9.1984304
 },
 {
+  "type": "node",
+  "id": 3338230891,
+  "lat": 49.1401291,
+  "lon": 9.2040902
+},
+{
+  "type": "node",
+  "id": 3338230892,
+  "lat": 49.1401333,
+  "lon": 9.2041168
+},
+{
+  "type": "node",
+  "id": 3338231194,
+  "lat": 49.1404107,
+  "lon": 9.2040123
+},
+{
+  "type": "node",
+  "id": 3338231195,
+  "lat": 49.1404128,
+  "lon": 9.2040381
+},
+{
+  "type": "node",
+  "id": 3338239107,
+  "lat": 49.1405666,
+  "lon": 9.2040463
+},
+{
+  "type": "node",
+  "id": 3338239112,
+  "lat": 49.1407640,
+  "lon": 9.2041086
+},
+{
   "type": "way",
   "id": 4387847,
   "nodes": [
@@ -14335,7 +14293,7 @@
   "tags": {
     "highway": "primary",
     "lanes": "3",
-    "maxheight": "unsigned",
+    "maxheight": "default",
     "maxspeed": "50",
     "name": "Neckartalstraße",
     "oneway": "yes",
@@ -14460,20 +14418,11 @@
   "type": "way",
   "id": 35968002,
   "nodes": [
-    2181220539,
     420417796,
     420417793,
     420417794,
     2181220556,
-    2181220566,
-    2181220572,
-    2181220568,
-    2181220570,
-    2181220564,
-    2181220562,
-    2181220544,
-    2181220546,
-    2181220539
+    420417796
   ],
   "tags": {
     "addr:city": "Heilbronn",
@@ -14481,8 +14430,7 @@
     "addr:housenumber": "83",
     "addr:postcode": "74072",
     "addr:street": "Frankfurter Straße",
-    "building": "yes",
-    "source": "own aerial image"
+    "building": "school"
   }
 },
 {
@@ -14495,13 +14443,14 @@
     420417813,
     420417812,
     420417811,
+    3338230892,
+    3338230891,
+    3338231194,
+    3338231195,
     420417810,
     420417809,
     2181220548,
-    2181220550,
-    2181220558,
-    2181220560,
-    2181220554,
+    3338239107,
     2181220552,
     2181220542
   ],
@@ -14511,8 +14460,7 @@
     "addr:housenumber": "85",
     "addr:postcode": "74072",
     "addr:street": "Frankfurter Straße",
-    "building": "yes",
-    "source": "own aerial image"
+    "building": "school"
   }
 },
 {
@@ -14870,6 +14818,7 @@
     "addr:street": "Theresienstraße",
     "alt_name": "Turm an der Theresienwiese",
     "building": "yes",
+    "height": "28.5",
     "historic": "yes",
     "man_made": "tower",
     "name": "General-Wever-Turm",
@@ -15217,7 +15166,7 @@
   "tags": {
     "highway": "primary",
     "lanes": "3",
-    "maxheight": "unsigned",
+    "maxheight": "default",
     "maxspeed": "50",
     "name": "Neckartalstraße",
     "oneway": "yes",
@@ -15302,7 +15251,7 @@
     "addr:street": "Theresienstraße",
     "building": "yes",
     "operator": "HVG",
-    "power": "sub_station"
+    "power": "substation"
   }
 },
 {
@@ -16933,7 +16882,15 @@
     1015154382
   ],
   "tags": {
-    "building": "yes"
+    "building": "yes",
+    "frequency": "16.7",
+    "minor_substation": "prebuild_building",
+    "name": "Schaltposten",
+    "operator": "DB_Energie",
+    "power": "substation",
+    "sub_station": "minor_substation",
+    "substation": "traction",
+    "voltage": "15000"
   }
 },
 {
@@ -17554,7 +17511,8 @@
     "addr:housenumber": "2",
     "addr:postcode": "74080",
     "addr:street": "Georg-Vogel-Straße",
-    "building": "yes"
+    "building": "yes",
+    "name": "Stadtwerke Heilbronn – Verkehrsbetriebe"
   }
 },
 {
@@ -19716,6 +19674,7 @@
     1310142474,
     1616895055,
     1616895063,
+    3338239112,
     1310142477,
     1310142470
   ],
@@ -19725,9 +19684,7 @@
     "addr:housenumber": "81",
     "addr:postcode": "74072",
     "addr:street": "Frankfurter Straße",
-    "building": "school",
-    "name": "Akademie für Kommunikation",
-    "website": "www.akademie-bw.de"
+    "building": "school"
   }
 },
 {
@@ -22128,7 +22085,7 @@
     "bicycle": "no",
     "highway": "primary",
     "lanes": "3",
-    "maxheight": "unsigned",
+    "maxheight": "default",
     "maxspeed": "50",
     "name": "Neckartalstraße",
     "oneway": "yes",
@@ -22151,7 +22108,7 @@
     "bicycle": "no",
     "highway": "primary",
     "lanes": "1",
-    "maxheight": "unsigned",
+    "maxheight": "default",
     "maxspeed": "50",
     "name": "Neckartalstraße",
     "oneway": "yes"
@@ -22189,7 +22146,7 @@
   "tags": {
     "highway": "primary",
     "lanes": "2",
-    "maxheight": "unsigned",
+    "maxheight": "default",
     "maxspeed": "50",
     "name": "Wilhelm-Leuschner-Straße",
     "oneway": "yes",

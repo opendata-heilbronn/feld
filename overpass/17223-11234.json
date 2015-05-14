@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API",
   "osm3s": {
-    "timestamp_osm_base": "2015-01-29T18:32:01Z",
+    "timestamp_osm_base": "2015-05-14T21:59:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -46397,7 +46397,8 @@
     "addr:housenumber": "14",
     "addr:postcode": "74072",
     "addr:street": "Am Wollhaus",
-    "building": "yes"
+    "building": "yes",
+    "height": "26"
   }
 },
 {
@@ -60542,7 +60543,7 @@
     "addr:street": "Wilhelmstraße",
     "building": "yes",
     "source": "LGL, www.lgl-bw.de",
-    "wikipedia": "de:Haus_Wilhelmstraße_66_(Heilbronn)"
+    "wikipedia": "de:Haus Wilhelmstraße 66 (Heilbronn)"
   }
 },
 {

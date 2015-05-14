@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API",
   "osm3s": {
-    "timestamp_osm_base": "2015-01-29T18:32:01Z",
+    "timestamp_osm_base": "2015-05-14T21:59:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -11884,6 +11884,12 @@
   "lon": 9.2342924
 },
 {
+  "type": "node",
+  "id": 3406163493,
+  "lat": 49.1488196,
+  "lon": 9.2422945
+},
+{
   "type": "way",
   "id": 80540743,
   "nodes": [
@@ -12097,7 +12103,7 @@
   "tags": {
     "building": "yes",
     "operator": "EnBW",
-    "power": "sub_station"
+    "power": "substation"
   }
 },
 {
@@ -16963,7 +16969,8 @@
   "tags": {
     "highway": "primary",
     "lanes": "2",
-    "maxspeed": "50",
+    "maxspeed:backward": "50",
+    "maxspeed:forward": "70",
     "name": "Haller Straße",
     "ref": "B 39"
   }
@@ -16976,18 +16983,13 @@
     1561854869,
     1561854868,
     1561854870,
-    1561854871,
-    2274916777,
-    1111850715,
-    1111851234,
-    388195533,
-    1561854866
+    3406163493
   ],
   "tags": {
     "highway": "primary",
     "lanes": "2",
     "lit": "yes",
-    "maxspeed": "50",
+    "maxspeed": "70",
     "name": "Haller Straße",
     "ref": "B 39"
   }
@@ -17737,26 +17739,13 @@
   "id": 218325044,
   "nodes": [
     23699747,
-    23699752,
-    23699756,
-    23699762,
-    23699766,
-    23699773,
-    524719627,
-    23699777,
-    23699782,
-    23699787,
-    524719634,
-    1111850818,
-    23699792,
-    23699797,
-    23699802,
-    1561854872
+    23699752
   ],
   "tags": {
     "highway": "primary",
     "lanes": "2",
-    "maxspeed": "70",
+    "maxspeed:backward": "50",
+    "maxspeed:forward": "70",
     "name": "Haller Straße",
     "ref": "B 39"
   }
@@ -17772,7 +17761,8 @@
   "tags": {
     "highway": "primary",
     "lanes": "2",
-    "maxspeed": "50",
+    "maxspeed:backward": "50",
+    "maxspeed:forward": "70",
     "name": "Haller Straße",
     "ref": "B 39"
   }
@@ -18010,6 +18000,55 @@
   ],
   "tags": {
     "landuse": "forest"
+  }
+},
+{
+  "type": "way",
+  "id": 333497671,
+  "nodes": [
+    23699752,
+    23699756,
+    23699762,
+    23699766,
+    23699773,
+    524719627,
+    23699777,
+    23699782,
+    23699787,
+    524719634,
+    1111850818,
+    23699792,
+    23699797,
+    23699802,
+    1561854872
+  ],
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed": "70",
+    "name": "Haller Straße",
+    "ref": "B 39"
+  }
+},
+{
+  "type": "way",
+  "id": 333497672,
+  "nodes": [
+    3406163493,
+    1561854871,
+    2274916777,
+    1111850715,
+    1111851234,
+    388195533,
+    1561854866
+  ],
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Haller Straße",
+    "ref": "B 39"
   }
 }
 

@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API",
   "osm3s": {
-    "timestamp_osm_base": "2015-01-29T18:32:01Z",
+    "timestamp_osm_base": "2015-05-14T21:59:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -12574,8 +12574,8 @@
 {
   "type": "node",
   "id": 1306852034,
-  "lat": 49.1326765,
-  "lon": 9.2075607
+  "lat": 49.1326798,
+  "lon": 9.2075870
 },
 {
   "type": "node",
@@ -12586,8 +12586,8 @@
 {
   "type": "node",
   "id": 1306852036,
-  "lat": 49.1325944,
-  "lon": 9.2076140
+  "lat": 49.1326104,
+  "lon": 9.2076190
 },
 {
   "type": "node",
@@ -12652,8 +12652,8 @@
 {
   "type": "node",
   "id": 1306852048,
-  "lat": 49.1325564,
-  "lon": 9.2074908
+  "lat": 49.1325702,
+  "lon": 9.2075042
 },
 {
   "type": "node",
@@ -12814,8 +12814,8 @@
 {
   "type": "node",
   "id": 1306852085,
-  "lat": 49.1326280,
-  "lon": 9.2076943
+  "lat": 49.1326370,
+  "lon": 9.2077104
 },
 {
   "type": "node",
@@ -12910,8 +12910,8 @@
 {
   "type": "node",
   "id": 1306852105,
-  "lat": 49.1326864,
-  "lon": 9.2077440
+  "lat": 49.1326883,
+  "lon": 9.2077520
 },
 {
   "type": "node",
@@ -12946,8 +12946,8 @@
 {
   "type": "node",
   "id": 1306852113,
-  "lat": 49.1326193,
-  "lon": 9.2075412
+  "lat": 49.1326325,
+  "lon": 9.2075525
 },
 {
   "type": "node",
@@ -13204,8 +13204,8 @@
 {
   "type": "node",
   "id": 1306852162,
-  "lat": 49.1327090,
-  "lon": 9.2076820
+  "lat": 49.1327106,
+  "lon": 9.2076878
 },
 {
   "type": "node",
@@ -13234,8 +13234,8 @@
 {
   "type": "node",
   "id": 1306852167,
-  "lat": 49.1327334,
-  "lon": 9.2077028
+  "lat": 49.1327304,
+  "lon": 9.2077038
 },
 {
   "type": "node",
@@ -13264,8 +13264,8 @@
 {
   "type": "node",
   "id": 1306852174,
-  "lat": 49.1325315,
-  "lon": 9.2075637
+  "lat": 49.1325481,
+  "lon": 9.2075708
 },
 {
   "type": "node",
@@ -13402,8 +13402,8 @@
 {
   "type": "node",
   "id": 1306852199,
-  "lat": 49.1327595,
-  "lon": 9.2076311
+  "lat": 49.1327509,
+  "lon": 9.2076446
 },
 {
   "type": "node",
@@ -18972,7 +18972,8 @@
     370662245
   ],
   "tags": {
-    "waterway": "riverbank"
+    "natural": "water",
+    "water": "river"
   }
 },
 {
@@ -19083,6 +19084,11 @@
     406608325
   ],
   "tags": {
+    "addr:city": "Heilbronn",
+    "addr:country": "DE",
+    "addr:housenumber": "21",
+    "addr:postcode": "74074",
+    "addr:street": "Neckarhalde",
     "building": "yes"
   }
 },
@@ -21844,11 +21850,11 @@
     "addr:housenumber": "48",
     "addr:postcode": "74072",
     "addr:street": "Badstraße",
-    "amenity": "restaurant",
     "building": "yes",
-    "cuisine": "regional",
+    "leisure": "sports_centre",
     "name": "Schwabenhaus DAV Sektion Heilbronn",
     "source": "own aerial image",
+    "sport": "oarsmanship",
     "website": "www.dav-heilbronn.de"
   }
 },
@@ -23116,10 +23122,6 @@
   ],
   "tags": {
     "addr:city": "Heilbronn",
-    "addr:country": "DE",
-    "addr:housenumber": "12/1",
-    "addr:postcode": "74072",
-    "addr:street": "Cäcilienstraße",
     "building": "yes",
     "man_made": "works",
     "source": "Geothing Map Warper (2759)"
@@ -23334,10 +23336,6 @@
   ],
   "tags": {
     "addr:city": "Heilbronn",
-    "addr:country": "DE",
-    "addr:housenumber": "12",
-    "addr:postcode": "74072",
-    "addr:street": "Cäcilienstraße",
     "building": "yes",
     "man_made": "works",
     "source": "Geothing Map Warper (2759)"
@@ -25652,6 +25650,7 @@
     "addr:postcode": "74074",
     "addr:street": "Rosenbergstraße",
     "building": "yes",
+    "height": "58",
     "name": "Rosenberg-Hochhaus",
     "wikipedia:de": "Rosenberg-Hochhaus"
   }
@@ -26861,6 +26860,11 @@
     1306852048
   ],
   "tags": {
+    "addr:city": "Heilbronn",
+    "addr:country": "DE",
+    "addr:housenumber": "20",
+    "addr:postcode": "74074",
+    "addr:street": "Neckarhalde",
     "building": "garage"
   }
 },
