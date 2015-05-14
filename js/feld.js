@@ -235,7 +235,7 @@ city.init({
   // city.publish('addToScene', cube);
 
    var buildings = [], features = [];
-  var usage = [];
+  var ensemble = [];
 
   $('#new-buildings').change(function(){
     if ($(this).prop('checked')) {
@@ -265,7 +265,7 @@ city.init({
   });
 
   function go(dummy){
-    var uses = ['Wohnen', 'Bauen'];
+    var uses = ['Suedschenkel', 'Westschenkel'];
     var colours = ['0xeeeeee',"0xa9bbd6"]
   //  console.log(uses[1]);
   //  console.log(colours[1]);
@@ -313,9 +313,9 @@ city.init({
 //  $('#new-buildings').change(go(0));
 
   $.getJSON('buildings.geojson', function(geojson){
-    var usage;
+    var ensemble;
     _.each(geojson.features, function(feature){
-      usage = feature.properties.usage;  
+      ensemble = feature.properties.ensemble;  
   
         feature.properties.area = feature.properties.area || geoJSONArea(feature.geometry);
         // city.data.processArea(feature.geometry.coordinates[0]);
@@ -328,8 +328,8 @@ city.init({
         }
         // console.log(feature.properties);
         features.push(feature);
-        if (usage){
-          go(usage);
+        if (ensemble){
+          go(ensemble);
         }
         else {
           $('#new-buildings').prop('checked', true).change();
