@@ -12,7 +12,7 @@ var applyVertexColors = function( g, c ) {
   } );
 };
 
-var defaultColour = new THREE.Color(0xFF87FC);
+var defaultColour = new THREE.Color(0x7F6432);
 
 window.createExtrudedObject = function(feature, geo, material) {
 
