@@ -152,7 +152,7 @@ var wayPoints = {
   }, 
   suedschenkel: {
     cameraOptions: {
-      "capZoom":true,"capOrbit":true,"orbitCapLow":15,"orbitCapHigh":175,"coords":[9.207428,49.144565],"overpassGridUpdate":true,"overpassWayIntersect":false,"controls":{"enable":true},"target":[-1470.438942166035,716.3654002568528],"cameraRadius":600,"theta":10,"phi":30,"zoomCapLow":250,"zoomCapHigh":2000,"cameraFov":40,"near":2,"far":40000
+      "capZoom":true,"capOrbit":true,"orbitCapLow":5,"orbitCapHigh":175,"coords":[9.207428,49.144565],"overpassGridUpdate":true,"overpassWayIntersect":false,"controls":{"enable":true},"target":[-1470.438942166035,716.3654002568528],"cameraRadius":600,"theta":10,"phi":30,"zoomCapLow":250,"zoomCapHigh":2000,"cameraFov":40,"near":2,"far":40000
     }
   },
 };
@@ -248,8 +248,8 @@ city.init({
       console.log("Trigger-aufrufende Instanz: "+this);
       var material = new THREE.MeshLambertMaterial({vertexColors: THREE.VertexColors,
         //mit dieser Farbkombi lässt sich ein Unterschied zu den Blau-Farben erkennen ....
-       ambient: 0xa9bbd6,
-       color: 0xFF0000 
+  //     ambient: 0xa9bbd6,
+       color: 0x00FF00
       })
       _.each(features, function(feature){
         var obj = createExtrudedObject({
@@ -271,7 +271,7 @@ city.init({
 
   function go(dummy){
     var uses = ['Suedschenkel', 'Westschenkel'];
-    var colours = ['0xeeeeee',"0xa9bbd6"]
+    var ensemble_colours = ['0x7DFF7D','0xFFFF7F']
   //  console.log(uses[1]);
   //  console.log(colours[1]);
 
@@ -280,7 +280,6 @@ city.init({
       if (dummy === uses[i]){
     //    console.log(i);
     // colours =  colours[i]
-         // Besser mit Hash oder Doppelarray?! 
  /*   if (dummy) {
       console.log(dummy+ " kommt in Funktion an")
     };
@@ -289,9 +288,9 @@ city.init({
       console.log("Funktion-aufrufende Instanz: "+this);
   //     var material = new THREE.MeshLambertMaterial({vertexColors: THREE.VertexColors})
      
-      var color = new THREE.MeshLambertMaterial({vertexColors: THREE.VertexColors,
-       ambient: 0x222222,
-       color: colours[i]
+      var colorobj = new THREE.MeshLambertMaterial({vertexColors: THREE.VertexColors,
+       ambient: 0xFFFFFF,
+       color: ensemble_colours[i]
       }); 
       _.each(features, function(feature){
         var obj = createExtrudedObject({
@@ -299,7 +298,7 @@ city.init({
           properties: _.defaults(feature.properties, {
             roof: {}
           })
-        }, city.geo, color);
+        }, city.geo, colorobj);
         console.log(obj);
         buildings.push(obj);
         city.publish('addToScene', obj);
