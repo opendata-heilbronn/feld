@@ -271,8 +271,7 @@ city.init({
 
   function go(dummy){
     var uses = ['Suedschenkel', 'Westschenkel'];
-    var ensemble_colours = ['0x7DFF7D','0xFFFF7F']
-  //  console.log(uses[1]);
+    var ensemble_colours = [0x0000FF, 0x7D7D7D];
   //  console.log(colours[1]);
 
 
@@ -285,13 +284,13 @@ city.init({
     };
     */
       //aufrufende Instanz:
-      console.log("Funktion-aufrufende Instanz: "+this);
-  //     var material = new THREE.MeshLambertMaterial({vertexColors: THREE.VertexColors})
-     
+  //    console.log("Funktion-aufrufende Instanz: "+this);
+  //     var material = new THREE.MeshLambertMaterial({vertexColors: THREE.VertexColors})    
       var colorobj = new THREE.MeshLambertMaterial({vertexColors: THREE.VertexColors,
-       ambient: 0xFFFFFF,
+       ambient: 0x00FFFF,
        color: ensemble_colours[i]
       }); 
+       console.log(colorobj.color);
       _.each(features, function(feature){
         var obj = createExtrudedObject({
           coordinates: feature.geometry.coordinates,
