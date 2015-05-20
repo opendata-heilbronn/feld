@@ -155,6 +155,11 @@ var wayPoints = {
       "capZoom":true,"capOrbit":true,"orbitCapLow":5,"orbitCapHigh":175,"coords":[9.207428,49.144565],"overpassGridUpdate":true,"overpassWayIntersect":false,"controls":{"enable":true},"target":[-1470.438942166035,716.3654002568528],"cameraRadius":600,"theta":10,"phi":30,"zoomCapLow":250,"zoomCapHigh":2000,"cameraFov":40,"near":2,"far":40000
     }
   },
+  westschenkel: {
+    cameraOptions: {
+      "capZoom":true,"capOrbit":true,"orbitCapLow":5,"orbitCapHigh":175,"coords":[9.20742115512, 49.14852917309],"overpassGridUpdate":true,"overpassWayIntersect":false,"controls":{"enable":true},"target":[-2000,650],"cameraRadius":600,"theta":350,"phi":30,"zoomCapLow":250,"zoomCapHigh":2000,"cameraFov":40,"near":2,"far":40000
+    }
+  }
 };
 
 var triggerTween = function(city, wayPoint){
@@ -273,7 +278,6 @@ city.init({
     var uses = ['Suedschenkel', 'Westschenkel'];
     var ensemble_colours = [0x0000FF, 0x7D7D7D];
   //  console.log(colours[1]);
-
 
     for (var i = 0; i < uses.length; i++) {
       if (dummy === uses[i]){
