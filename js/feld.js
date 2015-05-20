@@ -288,9 +288,11 @@ city.init({
   //     var material = new THREE.MeshLambertMaterial({vertexColors: THREE.VertexColors})    
       var colorobj = new THREE.MeshLambertMaterial({vertexColors: THREE.VertexColors,
        ambient: 0x00FFFF,
-       color: ensemble_colours[i]
+       color: ensemble_colours[i], 
+       opacity: 0.8
       }); 
        console.log(colorobj.color);
+       console.log(colorobj.opacity);
       _.each(features, function(feature){
         var obj = createExtrudedObject({
           coordinates: feature.geometry.coordinates,
@@ -298,7 +300,7 @@ city.init({
             roof: {}
           })
         }, city.geo, colorobj);
-        console.log(obj);
+  //      console.log(obj);
         buildings.push(obj);
         city.publish('addToScene', obj);
       });
