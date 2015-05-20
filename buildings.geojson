@@ -709,7 +709,7 @@
             "id": "way/-675",
             "properties": {
                 "maxfloors" : "5",
-                "type": "way",
+                "ensemble": "Suedschenkel","type": "way",
                 "id": "-675",
                 "tags": {
                     "building": "yes"
@@ -1209,7 +1209,7 @@
             "id": "way/-651",
             "properties": {
                 "maxfloors" : "3",
-                "type": "way",
+                "ensemble": "Westschenkel","type": "way",
                 "id": "-651",
                 "tags": {
                     "building": "yes"
@@ -1250,7 +1250,7 @@
             "id": "way/-649",
             "properties": {
                 "maxfloors" : "7",
-                "type": "way",
+                "ensemble": "Westschenkel","type": "way",
                 "id": "-649",
                 "tags": {
                     "building": "yes"
@@ -1291,7 +1291,7 @@
             "id": "way/-647",
             "properties": {
                 "maxfloors" : "4",
-                "type": "way",
+                "ensemble": "Westschenkel","type": "way",
                 "id": "-647",
                 "tags": {
                     "building": "yes"
@@ -1332,7 +1332,7 @@
             "id": "way/-645",
             "properties": {
                 "maxfloors" : "5",
-                "type": "way",
+                "ensemble": "Westschenkel","type": "way",
                 "id": "-645",
                 "tags": {
                     "building": "yes"
@@ -1373,7 +1373,7 @@
             "id": "way/-643",
             "properties": {
                 "maxfloors" : "3",
-                "type": "way",
+               "ensemble": "Westschenkel","type": "way",
                 "id": "-643",
                 "tags": {
                     "building": "yes"
@@ -1414,7 +1414,7 @@
             "id": "way/-641",
             "properties": {
                 "maxfloors" : "4",
-                "type": "way",
+                "ensemble": "Westschenkel","type": "way",
                 "id": "-641",
                 "tags": {
                     "building": "yes"
@@ -1455,7 +1455,7 @@
             "id": "way/-639",
             "properties": {
                 "maxfloors" : "3",
-                "ensemble" : "Suedschenkel",
+                "ensemble": "Westschenkel","type": "way",
                 "type": "way",
                 "id": "-639",
                 "tags": {
@@ -1497,7 +1497,7 @@
             "id": "way/-637",
             "properties": {
                 "maxfloors" : "4",
-                "type": "way",
+                "ensemble": "Westschenkel","type": "way",
                 "id": "-637",
                 "tags": {
                     "building": "yes"
@@ -1538,8 +1538,7 @@
             "id": "way/-635",
             "properties": {
                 "maxfloors" : "3",
-                "ensemble": "Westschenkel",
-                "type": "way",
+                "ensemble": "Westschenkel","type": "way",
                 "id": "-635",
                 "tags": {
                     "building": "yes"
@@ -1580,7 +1579,7 @@
             "id": "way/-633",
             "properties": {
                 "maxfloors" : "4",
-                "type": "way",
+                "ensemble": "Westschenkel","type": "way",
                 "id": "-633",
                 "tags": {
                     "building": "yes"
@@ -1621,7 +1620,7 @@
             "id": "way/-631",
             "properties": {
                 "maxfloors" : "5",
-                "type": "way",
+                "ensemble": "Westschenkel","type": "way",
                 "id": "-631",
                 "tags": {
                     "building": "yes"
@@ -1662,7 +1661,7 @@
             "id": "way/-629",
             "properties": {
                 "maxfloors" : "4",
-                "ensemble": "Westschenkel",
+                "ensemble": "Westschenkel","type": "way",
                 "type": "way",
                 "id": "-629",
                 "tags": {
@@ -1704,7 +1703,7 @@
             "id": "way/-627",
             "properties": {
                 "maxfloors" : "4",
-                "type": "way",
+                "ensemble": "Westschenkel","type": "way",
                 "id": "-627",
                 "tags": {
                     "building": "yes"
@@ -1745,7 +1744,7 @@
             "id": "way/-625",
             "properties": {
                 "maxfloors" : "3",
-                "type": "way",
+                "ensemble": "Westschenkel","type": "way",
                 "id": "-625",
                 "tags": {
                     "building": "yes"
@@ -1786,7 +1785,7 @@
             "id": "way/-623",
             "properties": {
                 "maxfloors" : "3",
-                "type": "way",
+                "ensemble": "Westschenkel","type": "way",
                 "id": "-623",
                 "tags": {
                     "building": "yes"
@@ -1827,7 +1826,7 @@
             "id": "way/-621",
             "properties": {
                 "maxfloors" : "5",
-                "type": "way",
+                "ensemble": "Westschenkel","type": "way",
                 "id": "-621",
                 "tags": {
                     "building": "yes"
@@ -1868,7 +1867,7 @@
             "id": "way/-619",
             "properties": {
                 "maxfloors" : "5",
-                "type": "way",
+                "ensemble": "Westschenkel","type": "way",
                 "id": "-619",
                 "tags": {
                     "building": "yes"
@@ -2023,7 +2022,7 @@
             "id": "way/-613",
             "properties": {
                 "maxfloors" : "7",
-                "type": "way",
+                "ensemble": "Suedschenkel","type": "way",
                 "id": "-613",
                 "tags": {
                     "building": "yes"
@@ -2072,7 +2071,7 @@
             "id": "way/-611",
             "properties": {
                 "maxfloors" : "6",
-                "type": "way",
+                "ensemble": "Suedschenkel","type": "way",
                 "id": "-611",
                 "tags": {
                     "building": "yes"
@@ -2285,7 +2284,7 @@
             "id": "way/-601",
             "properties": {
                 "maxfloors" : "5",
-                "type": "way",
+                "ensemble": "Westschenkel","type": "way",
                 "id": "-601",
                 "tags": {
                     "building": "yes"
@@ -2326,7 +2325,7 @@
             "id": "way/-599",
             "properties": {
                 "maxfloors" : "6",
-                "ensemble": "Suedschenkel","type": "way",
+                "ensemble": "Westschenkel","type": "way",
                 "id": "-599",
                 "tags": {
                     "building": "yes"
@@ -2371,7 +2370,7 @@
             "id": "way/-597",
             "properties": {
                 "maxfloors" : "5",
-                "ensemble": "Suedschenkel","type": "way",
+                "ensemble": "Westschenkel","type": "way",
                 "id": "-597",
                 "tags": {
                     "building": "yes"
@@ -2412,7 +2411,7 @@
             "id": "way/-595",
             "properties": {
                 "maxfloors" : "3",
-                "ensemble": "Suedschenkel","type": "way",
+                "ensemble": "Westschenkel","type": "way",
                 "id": "-595",
                 "tags": {
                     "building": "yes"
@@ -2453,7 +2452,7 @@
             "id": "way/-593",
             "properties": {
                 "maxfloors" : "3",
-                "ensemble": "Suedschenkel","type": "way",
+                "ensemble": "Westschenkel","type": "way",
                 "id": "-593",
                 "tags": {
                     "building": "yes"
@@ -2494,7 +2493,7 @@
             "id": "way/-591",
             "properties": {
                 "maxfloors" : "5",
-                "ensemble": "Suedschenkel","type": "way",
+                "ensemble": "Westschenkel","type": "way",
                 "id": "-591",
                 "tags": {
                     "building": "yes"
@@ -2535,7 +2534,7 @@
             "id": "way/-589",
             "properties": {
                 "maxfloors" : "3",
-                "type": "way",
+                "ensemble": "Westschenkel","type": "way",
                 "id": "-589",
                 "tags": {
                     "building": "yes"
@@ -2580,7 +2579,7 @@
             "id": "way/-587",
             "properties": {
                 "maxfloors" : "5",
-                "type": "way",
+                "ensemble": "Westschenkel","type": "way",
                 "id": "-587",
                 "tags": {
                     "building": "yes"
@@ -2621,7 +2620,7 @@
             "id": "way/-585",
             "properties": {
                 "maxfloors" : "5",
-                "type": "way",
+                 "ensemble": "Westschenkel","type": "way",
                 "id": "-585",
                 "tags": {
                     "building": "yes"
@@ -2678,7 +2677,7 @@
             "id": "way/-583",
             "properties": {
                 "maxfloors" : "5",
-                "type": "way",
+                 "ensemble": "Westschenkel","type": "way",
                 "id": "-583",
                 "tags": {
                     "building": "yes"
@@ -2727,7 +2726,7 @@
             "id": "way/-581",
             "properties": {
                 "maxfloors" : "5",
-                "type": "way",
+                "type": "way", "ensemble": "Suedschenkel","type": "way",
                 "id": "-581",
                 "tags": {
                     "building": "yes"
@@ -2768,7 +2767,7 @@
             "id": "way/-579",
             "properties": {
                 "maxfloors" : "5",
-                "type": "way",
+                 "ensemble": "Suedschenkel","type": "way",
                 "id": "-579",
                 "tags": {
                     "building": "yes"
