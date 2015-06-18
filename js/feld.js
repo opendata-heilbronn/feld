@@ -139,17 +139,22 @@ var wayPoints = {
     cameraOptions: {
       "capZoom":true,"capOrbit":true,"orbitCapLow":65,"orbitCapHigh":175,"coords":[9.22336, 49.159929],"overpassGridUpdate":true,"overpassWayIntersect":false,"controls":{"enable":true},"target":[-1470.438942166035,716.3654002568528],"cameraRadius":1996,"theta":252,"phi":91,"zoomCapLow":250,"zoomCapHigh":2000,"cameraFov":40,"near":2,"far":40000
     }
-  },
+  }
+  ,
+  /*
   oderstrasse: {
     cameraOptions: {
       "capZoom":true,"capOrbit":true,"orbitCapLow":65,"orbitCapHigh":175,"coords":[13.398342,52.476684],"overpassGridUpdate":true,"overpassWayIntersect":false,"controls":{"enable":true},"target":[2496.4731570779963,649.1202353895497],"cameraRadius":2000,"theta":78,"phi":65,"zoomCapLow":250,"zoomCapHigh":2000,"cameraFov":40,"near":2,"far":40000
     }
   },
+  
+  
   suedring: {
     cameraOptions: {
       "capZoom":true,"capOrbit":true,"orbitCapLow":65,"orbitCapHigh":175,"coords":[13.398342,52.476684],"overpassGridUpdate":true,"overpassWayIntersect":false,"controls":{"enable":true},"target":[388.9192562717134,2240.285129070899],"cameraRadius":2722,"theta":294.5,"phi":79,"zoomCapLow":250,"zoomCapHigh":2000,"cameraFov":40,"near":2,"far":40000
     }
   }, 
+  */
   esplanadenschenkel: {
     cameraOptions: {
       "capZoom":true,"capOrbit":true,"orbitCapLow":5,"orbitCapHigh":175,"coords":[9.207428,49.144565],"overpassGridUpdate":true,"overpassWayIntersect":false,"controls":{"enable":true},"target":[-1470.438942166035,716.3654002568528],"cameraRadius":600,"theta":10,"phi":30,"zoomCapLow":250,"zoomCapHigh":2000,"cameraFov":40,"near":2,"far":40000
@@ -162,7 +167,7 @@ var wayPoints = {
   },
   neckarschenkel: {
     cameraOptions: {
-      "capZoom":true,"capOrbit":true,"orbitCapLow":5,"orbitCapHigh":175,"coords":[9.20742115512, 49.14852917309],"overpassGridUpdate":true,"overpassWayIntersect":false,"controls":{"enable":true},"target":[-2000,650],"cameraRadius":600,"theta":350,"phi":30,"zoomCapLow":250,"zoomCapHigh":2000,"cameraFov":40,"near":2,"far":40000
+      "capZoom":true,"capOrbit":true,"orbitCapLow":5,"orbitCapHigh":175,"coords":[9.21021285,49.1483174],"overpassGridUpdate":true,"overpassWayIntersect":false,"controls":{"enable":true},"target":[-2000,650],"cameraRadius":600,"theta":200,"phi":20,"zoomCapLow":250,"zoomCapHigh":2000,"cameraFov":40,"near":2,"far":40000
     }
   }
 };
