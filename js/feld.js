@@ -132,29 +132,11 @@ var city = new THF();
 var cameraOptions = {"capZoom":true,"capOrbit":true,"orbitCapLow":65,"orbitCapHigh":175,"coords":[9.22, 49.15],"overpassGridUpdate":true,"overpassWayIntersect":false,"controls":{"enable":true},"target":[860.3848352080889,440.04424654556533],"cameraRadius":7349,"theta":7,"phi":154,"zoomCapLow":250,"zoomCapHigh":2000,"cameraFov":40,"near":2,"far":40000};
 
 var wayPoints = {
- /* overview: {
-    cameraOptions: _.clone(cameraOptions)
-  },*/
   overview: {
     cameraOptions: {
       "capZoom":true,"capOrbit":true,"orbitCapLow":65,"orbitCapHigh":175,"coords":[9.22336, 49.159929],"overpassGridUpdate":true,"overpassWayIntersect":false,"controls":{"enable":true},"target":[-1470.438942166035,716.3654002568528],"cameraRadius":1996,"theta":252,"phi":91,"zoomCapLow":250,"zoomCapHigh":2000,"cameraFov":40,"near":2,"far":40000
     }
-  }
-  ,
-  /*
-  oderstrasse: {
-    cameraOptions: {
-      "capZoom":true,"capOrbit":true,"orbitCapLow":65,"orbitCapHigh":175,"coords":[13.398342,52.476684],"overpassGridUpdate":true,"overpassWayIntersect":false,"controls":{"enable":true},"target":[2496.4731570779963,649.1202353895497],"cameraRadius":2000,"theta":78,"phi":65,"zoomCapLow":250,"zoomCapHigh":2000,"cameraFov":40,"near":2,"far":40000
-    }
   },
-  
-  
-  suedring: {
-    cameraOptions: {
-      "capZoom":true,"capOrbit":true,"orbitCapLow":65,"orbitCapHigh":175,"coords":[13.398342,52.476684],"overpassGridUpdate":true,"overpassWayIntersect":false,"controls":{"enable":true},"target":[388.9192562717134,2240.285129070899],"cameraRadius":2722,"theta":294.5,"phi":79,"zoomCapLow":250,"zoomCapHigh":2000,"cameraFov":40,"near":2,"far":40000
-    }
-  }, 
-  */
   esplanadenschenkel: {
     cameraOptions: {
       "capZoom":true,"capOrbit":true,"orbitCapLow":5,"orbitCapHigh":175,"coords":[9.207428,49.144565],"overpassGridUpdate":true,"overpassWayIntersect":false,"controls":{"enable":true},"target":[-1470.438942166035,716.3654002568528],"cameraRadius":600,"theta":10,"phi":30,"zoomCapLow":250,"zoomCapHigh":2000,"cameraFov":40,"near":2,"far":40000
@@ -206,7 +188,7 @@ $('.nav a').click(function(e){
 
 function animate() {
 
-    requestAnimationFrame( animate ); // js/RequestAnimationFrame.js needs to be included too.
+    requestAnimationFrame( animate ); /
     TWEEN.update();
 
 }
@@ -216,30 +198,9 @@ animate();
 city.init({
   container: $('.webgl-container')[0],
   camera: cameraOptions,
-  // coords: [-0.01924, 51.50358] // Canary Wharf
-  // coords: [13.381320, 52.498460] // Tempelhofer Ufer 23
-  coords: [9.22, 49.15] // Tempelhofer Feld
-  // coords: [-0.1159894466, 51.5045487479] // London Eye
-  // coords: [-73.984762, 40.7516199] // NYC (performance-heavy)
+  coords: [9.22, 49.15] // Heilbronn
 }).then(function(){
-  // city.subscribe("update", function(){
-  //   TWEEN.update();
-  // });
-  // var floorContainer = new THREE.Object3D();
   city.webgl.camera.load(cameraOptions);
-  // var floorWireGeom = new THREE.PlaneGeometry(5000, 5000, 200, 200);
-  // var floorWireMat = new THREE.MeshBasicMaterial({color: 0xeeeeee, wireframe: true});
-  // var floorWire = new THREE.Mesh(floorWireGeom, floorWireMat);
-  // floorWire.position.y = -0.3;
-  // floorWire.rotation.x = - 90 * Math.PI / 180;
-
-  // floorContainer.add(floorWire);
-
-  // var floorGeom = new THREE.PlaneGeometry(40000, 40000, 4, 4);
-  // var floorGeom = new THREE.CubeGeometry(50, 50, 50);
-  // var floorMat = new THREE.MeshBasicMaterial({color: 0xff0000});
-  // var floor = new THREE.Mesh(floorGeom, floorMat);
-  // var geo = VIZI.Geo.getInstance();
 
   // var blue = new THREE.MeshLambertMaterial({vertexColors: THREE.VertexColors,
   //     ambient: 0x0000ff,
@@ -256,33 +217,6 @@ city.init({
 
    var buildings = [], features = [];
   var ensemble = [];
-
-  $('#new-buildings').change(function(){
-    if ($(this).prop('checked')) {
-       //aufrufende Instanz:
-      console.log("Trigger-aufrufende Instanz: "+this);
-      var material = new THREE.MeshLambertMaterial({vertexColors: THREE.VertexColors,
-        //mit dieser Farbkombi lässt sich ein Unterschied zu den Blau-Farben erkennen ....
-  //     ambient: 0xa9bbd6,
-       color: 0x00FF00
-      })
-      _.each(features, function(feature){
-        var obj = createExtrudedObject({
-          coordinates: feature.geometry.coordinates,
-          properties: _.defaults(feature.properties, {
-            roof: {}
-          })
-        }, city.geo, material);
-        buildings.push(obj);
-        city.publish('addToScene', obj);
-      });
-    } else {
-      _.each(buildings, function(obj){
-        city.publish('removeFromScene', obj);
-      });
-      buildings = [];
-    }
-  });
 
   function go(feature){
     var uses = ['Suedschenkel', 'Westschenkel'];
