@@ -298,15 +298,18 @@ city.init({
     // city.publish('addToScene', cube);
 
     var buildings = [], features = [];
-
+    var ensemble_colours = {
+        'Suedschenkel': 0xBBD8FF,
+        'Westschenkel': 0xCAFFAA
+    };
 
     $.getJSON('buildings.geojson', function (geojson) {
         var ensemble;
+        var material = new THREE.MeshLambertMaterial({vertexColors: THREE.VertexColors})
         _.each(geojson.features, function (feature) {
             ensemble = feature.properties.ensemble;
 
             feature.properties.area = feature.properties.area || geoJSONArea(feature.geometry);
-            // city.data.processArea(feature.geometry.coordinates[0]);
             if (!feature.properties.height) {
                 if (feature.properties.maxfloors) {
                     feature.properties.height = feature.properties.maxfloors * 3.14;
@@ -314,38 +317,26 @@ city.init({
                     feature.properties.height = 22;
                 }
             }
-            // console.log(feature.properties);
+
             features.push(feature);
-            go(feature);
+
+            // draw feature
+            var color;
+            if(ensemble_colours[feature.properties.ensemble]) {
+                color = ensemble_colours[feature.properties.ensemble];
+            } else {
+                color = 0xFFAE85;
+            }
+
+            var obj = createExtrudedObject({
+                coordinates: feature.geometry.coordinates,
+                properties: _.defaults(feature.properties, {
+                    roof: {}
+                })
+            }, city.geo, material);
+
+            buildings.push(obj);
+            city.publish('addToScene', obj);
         });
     });
-
-    function go(feature) {
-        var ensemble_colours = {
-            'Suedschenkel': 0xBBD8FF,
-            'Westschenkel': 0xCAFFAA
-        };
-        var color;
-        if(ensemble_colours[feature.properties.ensemble]) {
-            color = ensemble_colours[feature.properties.ensemble];
-        } else {
-            color = 0xFFAE85;
-        }
-
-        var colorobj = new THREE.MeshLambertMaterial({
-            vertexColors: THREE.FaceColors,
-            color: color,
-            opacity: 0.3
-        });
-
-        var obj = createExtrudedObject({
-            coordinates: feature.geometry.coordinates,
-            properties: _.defaults(feature.properties, {
-                roof: {}
-            })
-        }, city.geo, colorobj);
-
-        buildings.push(obj);
-        city.publish('addToScene', obj);
-    }
 });
