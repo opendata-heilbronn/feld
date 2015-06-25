@@ -284,13 +284,13 @@ city.init({
     }
   });
 
-  function go(dummy){
+  function go(feature){
     var uses = ['Suedschenkel', 'Westschenkel'];
     var ensemble_colours = [0x0000FF, 0x7D7D7D];
   //  console.log(colours[1]);
 
     for (var i = 0; i < uses.length; i++) {
-      if (dummy === uses[i]){
+      if (feature.properties.ensemble === uses[i]){
     //    console.log(i);
     // colours =  colours[i]
  /*   if (dummy) {
@@ -302,12 +302,11 @@ city.init({
   //     var material = new THREE.MeshLambertMaterial({vertexColors: THREE.VertexColors})    
       var colorobj = new THREE.MeshLambertMaterial({vertexColors: THREE.VertexColors,
        ambient: 0x00FFFF,
-       color: ensemble_colours[i], 
+       color: ensemble_colours[i],
        opacity: 0.8
-      }); 
+      });
        console.log(colorobj.color);
        console.log(colorobj.opacity);
-      _.each(features, function(feature){
         var obj = createExtrudedObject({
           coordinates: feature.geometry.coordinates,
           properties: _.defaults(feature.properties, {
@@ -317,8 +316,7 @@ city.init({
   //      console.log(obj);
         buildings.push(obj);
         city.publish('addToScene', obj);
-      });
-     
+
  /*   else {
       _.each(buildings, function(obj){
         city.publish('removeFromScene', obj);
@@ -348,10 +346,7 @@ city.init({
         // console.log(feature.properties);
         features.push(feature);
         if (ensemble){
-          go(ensemble);
-        }
-        else {
-          $('#new-buildings').prop('checked', true).change();
+          go(feature);
         }
 //die (nicht sichtbare) Control 'Zeige Gebäude' wird ANgehakt
 
