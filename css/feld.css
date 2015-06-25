@@ -39,3 +39,11 @@ body {
 #neckarschenkel h1{
     color: FFAE85
 }
+
+.info-container {
+  margin-right: 20px;
+  padding-top: 3px;
+}
+.info-container > div {
+  box-shadow: 2px 2px 5px 0 #AAA;
+}

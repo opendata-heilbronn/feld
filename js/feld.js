@@ -219,14 +219,14 @@ var wayPoints = {
             "capOrbit": true,
             "orbitCapLow": 5,
             "orbitCapHigh": 175,
-            "coords": [9.21021285, 49.1483174],
+            "coords": [9.20954909156642, 49.1472289662952],
             "overpassGridUpdate": true,
             "overpassWayIntersect": false,
             "controls": {"enable": true},
-            "target": [-2000, 650],
+            "target": [-1550, 650],
             "cameraRadius": 600,
-            "theta": 200,
-            "phi": 20,
+            "theta": -125,
+            "phi": 65,
             "zoomCapLow": 250,
             "zoomCapHigh": 2000,
             "cameraFov": 40,
@@ -237,6 +237,8 @@ var wayPoints = {
 };
 
 setInterval(function() {
+
+    console.log(city);
     console.log("Theta: " + city.webgl.camera.theta, "Phi: " + city.webgl.camera.phi, "Geo: " + city.geo.center);
 }, 1000);
 
