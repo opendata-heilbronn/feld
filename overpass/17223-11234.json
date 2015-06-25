@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API",
   "osm3s": {
-    "timestamp_osm_base": "2015-05-14T21:59:02Z",
+    "timestamp_osm_base": "2015-06-25T18:25:03Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -3207,33 +3207,9 @@
 },
 {
   "type": "node",
-  "id": 675651412,
-  "lat": 49.1314551,
-  "lon": 9.2193687
-},
-{
-  "type": "node",
-  "id": 675651417,
-  "lat": 49.1315355,
-  "lon": 9.2193583
-},
-{
-  "type": "node",
   "id": 675651419,
   "lat": 49.1319860,
   "lon": 9.2194599
-},
-{
-  "type": "node",
-  "id": 675651433,
-  "lat": 49.1314947,
-  "lon": 9.2203787
-},
-{
-  "type": "node",
-  "id": 675651440,
-  "lat": 49.1315953,
-  "lon": 9.2203607
 },
 {
   "type": "node",
@@ -7654,12 +7630,6 @@
 },
 {
   "type": "node",
-  "id": 1227245714,
-  "lat": 49.1375284,
-  "lon": 9.2255911
-},
-{
-  "type": "node",
   "id": 1227245716,
   "lat": 49.1383496,
   "lon": 9.2261544
@@ -7708,12 +7678,6 @@
 },
 {
   "type": "node",
-  "id": 1227245750,
-  "lat": 49.1375910,
-  "lon": 9.2255982
-},
-{
-  "type": "node",
   "id": 1227245769,
   "lat": 49.1376425,
   "lon": 9.2263750
@@ -7741,12 +7705,6 @@
   "id": 1227245774,
   "lat": 49.1384725,
   "lon": 9.2254732
-},
-{
-  "type": "node",
-  "id": 1227245776,
-  "lat": 49.1375167,
-  "lon": 9.2258305
 },
 {
   "type": "node",
@@ -7978,12 +7936,6 @@
 },
 {
   "type": "node",
-  "id": 1227245958,
-  "lat": 49.1378934,
-  "lon": 9.2256821
-},
-{
-  "type": "node",
   "id": 1227245960,
   "lat": 49.1376220,
   "lon": 9.2263640
@@ -8104,12 +8056,6 @@
 },
 {
   "type": "node",
-  "id": 1227246024,
-  "lat": 49.1378041,
-  "lon": 9.2256713
-},
-{
-  "type": "node",
   "id": 1227246030,
   "lat": 49.1381411,
   "lon": 9.2261714
@@ -8131,12 +8077,6 @@
   "id": 1227246043,
   "lat": 49.1374860,
   "lon": 9.2264173
-},
-{
-  "type": "node",
-  "id": 1227246050,
-  "lat": 49.1378854,
-  "lon": 9.2258358
 },
 {
   "type": "node",
@@ -8233,12 +8173,6 @@
   "id": 1227246118,
   "lat": 49.1384801,
   "lon": 9.2260226
-},
-{
-  "type": "node",
-  "id": 1227246123,
-  "lat": 49.1377961,
-  "lon": 9.2258249
 },
 {
   "type": "node",
@@ -8353,12 +8287,6 @@
   "id": 1227246177,
   "lat": 49.1378263,
   "lon": 9.2267114
-},
-{
-  "type": "node",
-  "id": 1227246194,
-  "lat": 49.1375793,
-  "lon": 9.2258377
 },
 {
   "type": "node",
@@ -16591,87 +16519,15 @@
 },
 {
   "type": "node",
-  "id": 1234122475,
-  "lat": 49.1378385,
-  "lon": 9.2260305
-},
-{
-  "type": "node",
   "id": 1234122481,
   "lat": 49.1383469,
   "lon": 9.2254608
 },
 {
   "type": "node",
-  "id": 1234122482,
-  "lat": 49.1378457,
-  "lon": 9.2258882
-},
-{
-  "type": "node",
-  "id": 1234122484,
-  "lat": 49.1378581,
-  "lon": 9.2255978
-},
-{
-  "type": "node",
-  "id": 1234122487,
-  "lat": 49.1376711,
-  "lon": 9.2260107
-},
-{
-  "type": "node",
-  "id": 1234122489,
-  "lat": 49.1376783,
-  "lon": 9.2258684
-},
-{
-  "type": "node",
-  "id": 1234122493,
-  "lat": 49.1378648,
-  "lon": 9.2254565
-},
-{
-  "type": "node",
-  "id": 1234122498,
-  "lat": 49.1375036,
-  "lon": 9.2259909
-},
-{
-  "type": "node",
-  "id": 1234122499,
-  "lat": 49.1376950,
-  "lon": 9.2255799
-},
-{
-  "type": "node",
   "id": 1234122500,
   "lat": 49.1375741,
   "lon": 9.2248324
-},
-{
-  "type": "node",
-  "id": 1234122502,
-  "lat": 49.1375319,
-  "lon": 9.2255619
-},
-{
-  "type": "node",
-  "id": 1234122503,
-  "lat": 49.1375108,
-  "lon": 9.2258486
-},
-{
-  "type": "node",
-  "id": 1234122506,
-  "lat": 49.1377017,
-  "lon": 9.2254386
-},
-{
-  "type": "node",
-  "id": 1234122509,
-  "lat": 49.1375385,
-  "lon": 9.2254206
 },
 {
   "type": "node",
@@ -30543,30 +30399,6 @@
 },
 {
   "type": "node",
-  "id": 1251306716,
-  "lat": 49.1314759,
-  "lon": 9.2197163
-},
-{
-  "type": "node",
-  "id": 1251306718,
-  "lat": 49.1315508,
-  "lon": 9.2197044
-},
-{
-  "type": "node",
-  "id": 1251306720,
-  "lat": 49.1314575,
-  "lon": 9.2197181
-},
-{
-  "type": "node",
-  "id": 1251306728,
-  "lat": 49.1315580,
-  "lon": 9.2197038
-},
-{
-  "type": "node",
   "id": 1254041330,
   "lat": 49.1316006,
   "lon": 9.2255026
@@ -31608,7 +31440,8 @@
   "lon": 9.2184145,
   "tags": {
     "name": "Matratzen Concord",
-    "shop": "furniture"
+    "shop": "furniture",
+    "wheelchair": "limited"
   }
 },
 {
@@ -39181,6 +39014,30 @@
   }
 },
 {
+  "type": "node",
+  "id": 3589540025,
+  "lat": 49.1342530,
+  "lon": 9.2285354
+},
+{
+  "type": "node",
+  "id": 3589540026,
+  "lat": 49.1342575,
+  "lon": 9.2284407
+},
+{
+  "type": "node",
+  "id": 3589540027,
+  "lat": 49.1343007,
+  "lon": 9.2285407
+},
+{
+  "type": "node",
+  "id": 3589540028,
+  "lat": 49.1343052,
+  "lon": 9.2284460
+},
+{
   "type": "way",
   "id": 4228383,
   "nodes": [
@@ -39440,7 +39297,8 @@
     "name": "BikemaX",
     "shop": "bicycle",
     "source": "own aerial image",
-    "website": "http://www.bikemax.de/"
+    "website": "http://www.bikemax.de/",
+    "wheelchair": "yes"
   }
 },
 {
@@ -41371,41 +41229,6 @@
     "addr:street": "Solothurner Straße",
     "building": "yes",
     "source": "Map Warper"
-  }
-},
-{
-  "type": "way",
-  "id": 53455675,
-  "nodes": [
-    675651440,
-    675651433,
-    1251306720,
-    1251306716,
-    1251306718,
-    675651440
-  ],
-  "tags": {
-    "addr:city": "Heilbronn",
-    "addr:country": "DE",
-    "addr:housenumber": "17",
-    "addr:postcode": "74074",
-    "addr:street": "Südbahnhof",
-    "building": "yes"
-  }
-},
-{
-  "type": "way",
-  "id": 53455678,
-  "nodes": [
-    675651417,
-    675651412,
-    1251306716,
-    1251306718,
-    1251306728,
-    675651417
-  ],
-  "tags": {
-    "building": "yes"
   }
 },
 {
@@ -44235,20 +44058,6 @@
 },
 {
   "type": "way",
-  "id": 106695936,
-  "nodes": [
-    1227245776,
-    1227245714,
-    1227245750,
-    1227246194,
-    1227245776
-  ],
-  "tags": {
-    "building": "yes"
-  }
-},
-{
-  "type": "way",
   "id": 106695937,
   "nodes": [
     1227245930,
@@ -44430,25 +44239,6 @@
     "addr:housenumber": "85a",
     "addr:postcode": "74072",
     "addr:street": "Mönchseestraße",
-    "building": "yes"
-  }
-},
-{
-  "type": "way",
-  "id": 106695947,
-  "nodes": [
-    1227246024,
-    1227245958,
-    1227246050,
-    1227246123,
-    1227246024
-  ],
-  "tags": {
-    "addr:city": "Heilbronn",
-    "addr:country": "DE",
-    "addr:housenumber": "27/1",
-    "addr:postcode": "74072",
-    "addr:street": "Lerchenstraße",
     "building": "yes"
   }
 },
@@ -46547,7 +46337,7 @@
     "addr:street": "Steinstraße",
     "building": "yes",
     "name": "Villa Rauch",
-    "wikipedia:de": "Villa_Rauch"
+    "wikipedia": "de:Villa Rauch"
   }
 },
 {
@@ -49775,25 +49565,6 @@
 },
 {
   "type": "way",
-  "id": 107370813,
-  "nodes": [
-    1234122506,
-    1234122493,
-    1234122484,
-    1234122499,
-    1234122506
-  ],
-  "tags": {
-    "addr:city": "Heilbronn",
-    "addr:country": "DE",
-    "addr:housenumber": "29",
-    "addr:postcode": "74072",
-    "addr:street": "Herbststraße",
-    "building": "yes"
-  }
-},
-{
-  "type": "way",
   "id": 107370816,
   "nodes": [
     1234122481,
@@ -49808,25 +49579,6 @@
     "addr:housenumber": "21",
     "addr:postcode": "74072",
     "addr:street": "Herbststraße",
-    "building": "yes"
-  }
-},
-{
-  "type": "way",
-  "id": 107370825,
-  "nodes": [
-    1234122489,
-    1234122482,
-    1234122475,
-    1234122487,
-    1234122489
-  ],
-  "tags": {
-    "addr:city": "Heilbronn",
-    "addr:country": "DE",
-    "addr:housenumber": "27",
-    "addr:postcode": "74072",
-    "addr:street": "Lerchenstraße",
     "building": "yes"
   }
 },
@@ -49848,44 +49600,6 @@
     "addr:city": "Heilbronn",
     "addr:country": "DE",
     "addr:housenumber": "17",
-    "addr:postcode": "74072",
-    "addr:street": "Lerchenstraße",
-    "building": "yes"
-  }
-},
-{
-  "type": "way",
-  "id": 107370832,
-  "nodes": [
-    1234122503,
-    1234122489,
-    1234122487,
-    1234122498,
-    1234122503
-  ],
-  "tags": {
-    "addr:city": "Heilbronn",
-    "addr:country": "DE",
-    "addr:housenumber": "29",
-    "addr:postcode": "74072",
-    "addr:street": "Lerchenstraße",
-    "building": "yes"
-  }
-},
-{
-  "type": "way",
-  "id": 107370834,
-  "nodes": [
-    1234122509,
-    1234122506,
-    1234122499,
-    1234122502,
-    1234122509
-  ],
-  "tags": {
-    "addr:city": "Heilbronn",
-    "addr:country": "DE",
-    "addr:housenumber": "25",
     "addr:postcode": "74072",
     "addr:street": "Lerchenstraße",
     "building": "yes"
@@ -58170,7 +57884,7 @@
     "addr:street": "Happelstraße",
     "building": "yes",
     "name": "Kaiser Otto",
-    "wikipedia:de": "Haus_Happelstra%C3%9Fe_59_%28Heilbronn%29"
+    "wikipedia": "de:Haus Happelstraße 59 (Heilbronn)"
   }
 },
 {
@@ -59595,7 +59309,8 @@
   "tags": {
     "building": "yes",
     "name": "Penny",
-    "shop": "supermarket"
+    "shop": "supermarket",
+    "wheelchair": "yes"
   }
 },
 {
@@ -64019,6 +63734,25 @@
     "maxspeed": "30",
     "name": "Blücherstraße",
     "turn:lanes:forward": "left|left"
+  }
+},
+{
+  "type": "way",
+  "id": 353188306,
+  "nodes": [
+    3589540028,
+    3589540026,
+    3589540025,
+    3589540027,
+    3589540028
+  ],
+  "tags": {
+    "addr:city": "Heilbronn",
+    "addr:country": "DE",
+    "addr:housenumber": "1",
+    "addr:postcode": "74072",
+    "addr:street": "Silcherplatz",
+    "building": "yes"
   }
 }
 

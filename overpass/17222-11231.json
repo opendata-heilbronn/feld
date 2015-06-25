@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API",
   "osm3s": {
-    "timestamp_osm_base": "2015-05-14T21:58:02Z",
+    "timestamp_osm_base": "2015-06-25T18:23:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1168,8 +1168,8 @@
 {
   "type": "node",
   "id": 833204901,
-  "lat": 49.1473216,
-  "lon": 9.2111885
+  "lat": 49.1473945,
+  "lon": 9.2111082
 },
 {
   "type": "node",
@@ -13400,6 +13400,18 @@
   "lon": 9.2160819
 },
 {
+  "type": "node",
+  "id": 3612248021,
+  "lat": 49.1471626,
+  "lon": 9.2122325
+},
+{
+  "type": "node",
+  "id": 3612248023,
+  "lat": 49.1475209,
+  "lon": 9.2117055
+},
+{
   "type": "way",
   "id": 4985406,
   "nodes": [
@@ -13615,6 +13627,8 @@
     411089190,
     620091379,
     834369936,
+    3612248023,
+    3612248021,
     620064990,
     392644323,
     429781267,
@@ -17722,6 +17736,7 @@
   ],
   "tags": {
     "building": "yes",
+    "height": "51",
     "name": "WTZ 3"
   }
 },

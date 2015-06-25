@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API",
   "osm3s": {
-    "timestamp_osm_base": "2015-05-14T21:58:02Z",
+    "timestamp_osm_base": "2015-06-25T18:23:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -766,7 +766,8 @@
     "addr:postcode": "74076",
     "addr:street": "Stielerstraße",
     "name": "Hair Kings",
-    "shop": "hairdresser"
+    "shop": "hairdresser",
+    "wheelchair": "limited"
   }
 },
 {
@@ -32794,7 +32795,8 @@
     "operator": "Renault",
     "shop": "car",
     "source": "own areal image -fri- 10072022873853.jpg",
-    "website": "http://www.von-der-weppen.de"
+    "website": "http://www.von-der-weppen.de",
+    "wheelchair": "yes"
   }
 },
 {
@@ -37381,7 +37383,8 @@
     "addr:street": "Käferflugstraße",
     "building": "yes",
     "name": "Bäckerei Förch",
-    "shop": "bakery"
+    "shop": "bakery",
+    "wheelchair": "no"
   }
 },
 {

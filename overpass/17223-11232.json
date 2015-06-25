@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API",
   "osm3s": {
-    "timestamp_osm_base": "2015-05-14T21:58:02Z",
+    "timestamp_osm_base": "2015-06-25T18:24:03Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -26948,7 +26948,8 @@
   "lon": 9.2215289,
   "tags": {
     "amenity": "courthouse",
-    "name": "Arbeits- und Sozialgericht"
+    "name": "Arbeits- und Sozialgericht",
+    "wheelchair": "yes"
   }
 },
 {
@@ -27483,7 +27484,8 @@
   "lon": 9.2256379,
   "tags": {
     "leisure": "pitch",
-    "sport": "basketball"
+    "sport": "basketball",
+    "wheelchair": "limited"
   }
 },
 {
@@ -31770,7 +31772,7 @@
     "amenity": "public_building",
     "building": "yes",
     "name": "Gewerkschaftshaus",
-    "wikipedia:de": "Datei:Heilbronn-gewerkschaftshaus.jpg"
+    "wikipedia": "de:Datei:Heilbronn-gewerkschaftshaus.jpg"
   }
 },
 {
@@ -31873,7 +31875,7 @@
     "source": "LGL, www.lgl-bw.de",
     "website": "www.theater-heilbronn.de",
     "wheelchair": "yes",
-    "wikipedia:de": "Stadttheater Heilbronn"
+    "wikipedia": "de:Stadttheater Heilbronn"
   }
 },
 {
@@ -32165,7 +32167,8 @@
     "addr:street": "Weipertstraße",
     "building": "shop",
     "name": "Aldi",
-    "shop": "supermarket"
+    "shop": "supermarket",
+    "wheelchair": "yes"
   }
 },
 {
@@ -33866,7 +33869,8 @@
     "opening_hours": "Mo-Fr 11:00-14:00; Mo-Fr 17:00-23:00; Sa 17:00-03:00; Su 15:00-23:00",
     "phone": "+497131953014",
     "source": "own aerial image -fri-",
-    "website": "www.casanova-pizzaservice.de"
+    "website": "www.casanova-pizzaservice.de",
+    "wheelchair": "no"
   }
 },
 {
@@ -34510,7 +34514,8 @@
     "man_made": "tower",
     "name": "Bollwerksturm",
     "tourism": "attraction",
-    "tower:type": "defensive"
+    "tower:type": "defensive",
+    "wheelchair": "no"
   }
 },
 {
@@ -34597,7 +34602,8 @@
     "cuisine": "kebab;pizza",
     "name": "SAMSUN 3",
     "opening_hours": "Mo-Fr 11:30-14:00; Mo-Sa 17:00-22:00, Su off",
-    "source": "Map Warper"
+    "source": "Map Warper",
+    "wheelchair": "limited"
   }
 },
 {
@@ -38858,7 +38864,8 @@
     "building": "yes",
     "name": "Hotel Arkade",
     "tourism": "hotel",
-    "website": "http://www.hotelarkade.de/"
+    "website": "http://www.hotelarkade.de/",
+    "wheelchair": "limited"
   }
 },
 {
@@ -39069,7 +39076,8 @@
     "building": "yes",
     "name": "Cinema Home",
     "shop": "video",
-    "source": "own aerial image -fri-"
+    "source": "own aerial image -fri-",
+    "wheelchair": "yes"
   }
 },
 {
@@ -47322,7 +47330,8 @@
     "cuisine": "regional",
     "name": "Weinstube Weingand",
     "opening_hours": "Tu-Fr, Su 11:00-14:00, 17:30+; Mo off; Sa \"on appointment\"",
-    "website": "http://www.weinstube-weingand.de/"
+    "website": "http://www.weinstube-weingand.de/",
+    "wheelchair": "no"
   }
 },
 {
@@ -47852,7 +47861,8 @@
     "addr:street": "Weinsberger Straße",
     "amenity": "pub",
     "building": "yes",
-    "name": "Zum Plattfuß"
+    "name": "Zum Plattfuß",
+    "wheelchair": "limited"
   }
 },
 {
@@ -52497,7 +52507,8 @@
   ],
   "tags": {
     "leisure": "pitch",
-    "sport": "soccer"
+    "sport": "soccer",
+    "wheelchair": "limited"
   }
 },
 {

@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API",
   "osm3s": {
-    "timestamp_osm_base": "2015-05-14T21:58:02Z",
+    "timestamp_osm_base": "2015-06-25T18:24:03Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -264,7 +264,8 @@
     "amenity": "bank",
     "atm": "yes",
     "name": "Kreissparkasse",
-    "operator": "Kreissparkasse"
+    "operator": "Kreissparkasse",
+    "wheelchair": "yes"
   }
 },
 {
@@ -282,7 +283,8 @@
     "cuisine": "spanish",
     "name": "Andalucia",
     "smoking": "isolated",
-    "website": "www.andalucia-heilbronn.de"
+    "website": "www.andalucia-heilbronn.de",
+    "wheelchair": "no"
   }
 },
 {
@@ -38846,7 +38848,8 @@
     "denomination": "catholic",
     "name": "Augustinuskirche",
     "religion": "christian",
-    "source": "own aerial image -fri- Mapwarper 3211"
+    "source": "own aerial image -fri- Mapwarper 3211",
+    "wheelchair": "limited"
   }
 },
 {
