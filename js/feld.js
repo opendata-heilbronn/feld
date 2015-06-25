@@ -309,7 +309,6 @@ city.init({
 
     $.getJSON('buildings.geojson', function (geojson) {
         var ensemble;
-        var material = new THREE.MeshLambertMaterial({vertexColors: THREE.VertexColors})
         _.each(geojson.features, function (feature) {
             ensemble = feature.properties.ensemble;
 
@@ -331,6 +330,10 @@ city.init({
             } else {
                 color = 0xFFAE85;
             }
+
+            var material = new THREE.MeshLambertMaterial({
+                color: color
+            });
 
             var obj = createExtrudedObject({
                 coordinates: feature.geometry.coordinates,
