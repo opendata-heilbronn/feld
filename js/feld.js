@@ -271,7 +271,6 @@ $('.nav a').click(function (e) {
 function animate() {
 
     requestAnimationFrame(animate);
-/
     TWEEN.update();
 
 }
@@ -299,7 +298,6 @@ city.init({
     // city.publish('addToScene', cube);
 
     var buildings = [], features = [];
-    var ensemble = [];
 
 
     $.getJSON('buildings.geojson', function (geojson) {
@@ -318,54 +316,36 @@ city.init({
             }
             // console.log(feature.properties);
             features.push(feature);
-            if (ensemble) {
-                go(feature);
-            }
+            go(feature);
         });
     });
 
     function go(feature) {
-        var uses = ['Suedschenkel', 'Westschenkel'];
-        var ensemble_colours = [0x0000FF, 0x7D7D7D];
-        //  console.log(colours[1]);
-
-        for (var i = 0; i < uses.length; i++) {
-            if (feature.properties.ensemble === uses[i]) {
-                //    console.log(i);
-                // colours =  colours[i]
-                /*   if (dummy) {
-                 console.log(dummy+ " kommt in Funktion an")
-                 };
-                 */
-                //aufrufende Instanz:
-                //    console.log("Funktion-aufrufende Instanz: "+this);
-                //     var material = new THREE.MeshLambertMaterial({vertexColors: THREE.VertexColors})
-                var colorobj = new THREE.MeshLambertMaterial({
-                    vertexColors: THREE.VertexColors,
-                    ambient: 0x00FFFF,
-                    color: ensemble_colours[i],
-                    opacity: 0.8
-                });
-                console.log(colorobj.color);
-                console.log(colorobj.opacity);
-                var obj = createExtrudedObject({
-                    coordinates: feature.geometry.coordinates,
-                    properties: _.defaults(feature.properties, {
-                        roof: {}
-                    })
-                }, city.geo, colorobj);
-                //      console.log(obj);
-                buildings.push(obj);
-                city.publish('addToScene', obj);
-
-                /*   else {
-                 _.each(buildings, function(obj){
-                 city.publish('removeFromScene', obj);
-                 });
-                 buildings = [];
-                 } */
-            }
+        var ensemble_colours = {
+            'Suedschenkel': 0xBBD8FF,
+            'Westschenkel': 0xCAFFAA
+        };
+        var color;
+        if(ensemble_colours[feature.properties.ensemble]) {
+            color = ensemble_colours[feature.properties.ensemble];
+        } else {
+            color = 0xFFAE85;
         }
-        ;
+
+        var colorobj = new THREE.MeshLambertMaterial({
+            vertexColors: THREE.FaceColors,
+            color: color,
+            opacity: 0.3
+        });
+
+        var obj = createExtrudedObject({
+            coordinates: feature.geometry.coordinates,
+            properties: _.defaults(feature.properties, {
+                roof: {}
+            })
+        }, city.geo, colorobj);
+
+        buildings.push(obj);
+        city.publish('addToScene', obj);
     }
 });
