@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API",
   "osm3s": {
-    "timestamp_osm_base": "2015-05-14T21:59:02Z",
+    "timestamp_osm_base": "2015-06-25T18:25:03Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -21461,7 +21461,7 @@
   "type": "node",
   "id": 1070634814,
   "lat": 49.1432977,
-  "lon": 9.2377204
+  "lon": 9.2377207
 },
 {
   "type": "node",
@@ -30588,7 +30588,7 @@
   "tags": {
     "leisure": "park",
     "name": "Pfühlpark",
-    "wikipedia:de": "Pfühlpark"
+    "wikipedia": "de:Pfühlpark"
   }
 },
 {
@@ -47429,6 +47429,9 @@
   ],
   "tags": {
     "building": "yes",
+    "description": "NS-Raum",
+    "name": "Pfühlpark EWHA",
+    "operator": "DB Netz AG",
     "source": "HiRes aerial imagery"
   }
 },

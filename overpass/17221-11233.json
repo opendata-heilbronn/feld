@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API",
   "osm3s": {
-    "timestamp_osm_base": "2015-05-14T21:59:02Z",
+    "timestamp_osm_base": "2015-06-25T18:24:03Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1674,86 +1674,86 @@
 {
   "type": "node",
   "id": 420799054,
-  "lat": 49.1397112,
-  "lon": 9.2035198
+  "lat": 49.1397088,
+  "lon": 9.2035149
 },
 {
   "type": "node",
   "id": 420799059,
-  "lat": 49.1397080,
-  "lon": 9.2035736
+  "lat": 49.1397056,
+  "lon": 9.2035687
 },
 {
   "type": "node",
   "id": 420799061,
-  "lat": 49.1396906,
-  "lon": 9.2036208
+  "lat": 49.1396882,
+  "lon": 9.2036159
 },
 {
   "type": "node",
   "id": 420799063,
-  "lat": 49.1396623,
-  "lon": 9.2036531
+  "lat": 49.1396599,
+  "lon": 9.2036482
 },
 {
   "type": "node",
   "id": 420799065,
-  "lat": 49.1396277,
-  "lon": 9.2036650
+  "lat": 49.1396253,
+  "lon": 9.2036601
 },
 {
   "type": "node",
   "id": 420799066,
-  "lat": 49.1395930,
-  "lon": 9.2036544
+  "lat": 49.1395906,
+  "lon": 9.2036495
 },
 {
   "type": "node",
   "id": 420799067,
-  "lat": 49.1395641,
-  "lon": 9.2036232
+  "lat": 49.1395617,
+  "lon": 9.2036183
 },
 {
   "type": "node",
   "id": 420799068,
-  "lat": 49.1395419,
-  "lon": 9.2035229
+  "lat": 49.1395395,
+  "lon": 9.2035180
 },
 {
   "type": "node",
   "id": 420799069,
-  "lat": 49.1395525,
-  "lon": 9.2034713
+  "lat": 49.1395501,
+  "lon": 9.2034664
 },
 {
   "type": "node",
   "id": 420799070,
-  "lat": 49.1395758,
-  "lon": 9.2034306
+  "lat": 49.1395734,
+  "lon": 9.2034257
 },
 {
   "type": "node",
   "id": 420799072,
-  "lat": 49.1396080,
-  "lon": 9.2034080
+  "lat": 49.1396056,
+  "lon": 9.2034031
 },
 {
   "type": "node",
   "id": 420799074,
-  "lat": 49.1396434,
-  "lon": 9.2034073
+  "lat": 49.1396410,
+  "lon": 9.2034024
 },
 {
   "type": "node",
   "id": 420799076,
-  "lat": 49.1396759,
-  "lon": 9.2034287
+  "lat": 49.1396735,
+  "lon": 9.2034238
 },
 {
   "type": "node",
   "id": 420799077,
-  "lat": 49.1396999,
-  "lon": 9.2034685
+  "lat": 49.1396975,
+  "lon": 9.2034636
 },
 {
   "type": "node",
@@ -13791,8 +13791,8 @@
 {
   "type": "node",
   "id": 2887241934,
-  "lat": 49.1395461,
-  "lon": 9.2035767
+  "lat": 49.1395437,
+  "lon": 9.2035718
 },
 {
   "type": "node",
@@ -14280,7 +14280,7 @@
     "source": "own aerial image",
     "website": "wiki.openstreetmap.org/wiki/OSM-Treff_Heilbronn",
     "wheelchair": "no",
-    "wikipedia:de": "Wilhelm-Waiblinger-Haus_%28Heilbronn%29"
+    "wikipedia": "de:Wilhelm-Waiblinger-Haus (Heilbronn)"
   }
 },
 {
@@ -14739,7 +14739,7 @@
     "building": "yes",
     "historic": "building",
     "name": "Schießhaus",
-    "wikipedia:de": "Schie%C3%9Fhaus_%28Heilbronn%29"
+    "wikipedia": "de:Schießhaus (Heilbronn)"
   }
 },
 {

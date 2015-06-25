@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API",
   "osm3s": {
-    "timestamp_osm_base": "2015-05-14T21:59:02Z",
+    "timestamp_osm_base": "2015-06-25T18:24:03Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -4700,7 +4700,7 @@
     "addr:street": "Fleiner Straße",
     "name": "REWE City",
     "shop": "supermarket",
-    "wheelchair": "yes"
+    "wheelchair": "limited"
   }
 },
 {
@@ -5728,7 +5728,7 @@
     "addr:street": "Fleiner Straße",
     "amenity": "cafe",
     "name": "Tchibo",
-    "wheelchair": "yes"
+    "wheelchair": "limited"
   }
 },
 {
@@ -5811,7 +5811,8 @@
     "amenity": "bar",
     "building": "yes",
     "name": "Prediger",
-    "source": "own aerial image -fri-"
+    "source": "own aerial image -fri-",
+    "wheelchair": "no"
   }
 },
 {
@@ -37380,7 +37381,7 @@
     "amenity": "public_building",
     "building": "yes",
     "name": "Gewerkschaftshaus",
-    "wikipedia:de": "Datei:Heilbronn-gewerkschaftshaus.jpg"
+    "wikipedia": "de:Datei:Heilbronn-gewerkschaftshaus.jpg"
   }
 },
 {
@@ -37689,8 +37690,8 @@
     "denomination": "catholic",
     "name": "St. Peter und Paul",
     "religion": "christian",
-    "wikipedia": "http://de.m.wikipedia.org/wiki/Deutschordensmünster_St._Peter_und_Paul_(Heilbronn)",
-    "wikipedia:de": "Deutschordensm%C3%BCnster_St._Peter_und_Paul_%28Heilbronn%29"
+    "wheelchair": "yes",
+    "wikipedia": "de:Deutschordensmünster St. Peter und Paul (Heilbronn)"
   }
 },
 {
@@ -37738,7 +37739,7 @@
     "building": "yes",
     "historic": "monument",
     "name": "Käthchenhaus",
-    "wikipedia:de": "K%C3%A4thchenhaus_(Heilbronn)"
+    "wikipedia": "de:Käthchenhaus (Heilbronn)"
   }
 },
 {
@@ -38050,7 +38051,7 @@
     "building": "yes",
     "historic": "monument",
     "name": "Zehender am Markt",
-    "wikipedia:de": "Haus_Zehender"
+    "wikipedia": "de:Haus Zehender"
   }
 },
 {
@@ -39346,7 +39347,7 @@
     "source": "LGL, www.lgl-bw.de",
     "website": "www.theater-heilbronn.de",
     "wheelchair": "yes",
-    "wikipedia:de": "Stadttheater Heilbronn"
+    "wikipedia": "de:Stadttheater Heilbronn"
   }
 },
 {
@@ -39904,7 +39905,8 @@
     "name": "hogh Hotel",
     "source": "LGL, www.lgl-bw.de",
     "tourism": "hotel",
-    "website": "www.nestorhotel-heilbronn.de"
+    "website": "www.nestorhotel-heilbronn.de",
+    "wheelchair": "no"
   }
 },
 {
@@ -41029,7 +41031,8 @@
     "cuisine": "greek",
     "name": "Delphi",
     "opening_hours": "Tu-Su,PH 11:30-15:00, 17:30-00:30",
-    "source": "LGL, www.lgl-bw.de"
+    "source": "LGL, www.lgl-bw.de",
+    "wheelchair": "no"
   }
 },
 {
@@ -41663,7 +41666,8 @@
     "building": "yes",
     "cuisine": "pizza;ice_cream",
     "name": "Felice",
-    "source": "LGL, www.lgl-bw.de"
+    "source": "LGL, www.lgl-bw.de",
+    "wheelchair": "yes"
   }
 },
 {
@@ -48356,7 +48360,8 @@
     "addr:street": "Allee",
     "amenity": "hospital",
     "building": "yes",
-    "name": "Tagesklinik Heilbronn"
+    "name": "Tagesklinik Heilbronn",
+    "wheelchair": "yes"
   }
 },
 {
@@ -48644,7 +48649,7 @@
     "cuisine": "thai",
     "name": "Asia Noy",
     "opening_hours": "Mo-Fr 12:00-23:00; Su,PH off",
-    "wheelchair": "limited"
+    "wheelchair": "no"
   }
 },
 {
@@ -53882,6 +53887,7 @@
     "name": "Haus der Stadtgeschichte / Otto Rettenmaier Haus",
     "tourism": "museum",
     "website": "http://www.stadtarchiv-heilbronn.de",
+    "wheelchair": "yes",
     "wikipedia": "de:Haus der Stadtgeschichte (Heilbronn)"
   }
 },

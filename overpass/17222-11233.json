@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API",
   "osm3s": {
-    "timestamp_osm_base": "2015-05-14T21:59:02Z",
+    "timestamp_osm_base": "2015-06-25T18:24:03Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -945,24 +945,6 @@
 },
 {
   "type": "node",
-  "id": 409126689,
-  "lat": 49.1453083,
-  "lon": 9.2130274
-},
-{
-  "type": "node",
-  "id": 409126690,
-  "lat": 49.1448770,
-  "lon": 9.2136245
-},
-{
-  "type": "node",
-  "id": 409126691,
-  "lat": 49.1440417,
-  "lon": 9.2139351
-},
-{
-  "type": "node",
   "id": 409129737,
   "lat": 49.1449758,
   "lon": 9.2155607
@@ -1018,12 +1000,6 @@
 },
 {
   "type": "node",
-  "id": 410778890,
-  "lat": 49.1426476,
-  "lon": 9.2149864
-},
-{
-  "type": "node",
   "id": 410778892,
   "lat": 49.1430675,
   "lon": 9.2150578
@@ -1048,24 +1024,6 @@
 },
 {
   "type": "node",
-  "id": 411081805,
-  "lat": 49.1464977,
-  "lon": 9.2121670
-},
-{
-  "type": "node",
-  "id": 411081808,
-  "lat": 49.1466598,
-  "lon": 9.2120454
-},
-{
-  "type": "node",
-  "id": 411081809,
-  "lat": 49.1467451,
-  "lon": 9.2120345
-},
-{
-  "type": "node",
   "id": 411081810,
   "lat": 49.1467488,
   "lon": 9.2120692
@@ -1075,12 +1033,6 @@
   "id": 411081811,
   "lat": 49.1469241,
   "lon": 9.2119982
-},
-{
-  "type": "node",
-  "id": 411081812,
-  "lat": 49.1468961,
-  "lon": 9.2116720
 },
 {
   "type": "node",
@@ -1147,18 +1099,6 @@
   "id": 414227572,
   "lat": 49.1395039,
   "lon": 9.2134661
-},
-{
-  "type": "node",
-  "id": 414771271,
-  "lat": 49.1450159,
-  "lon": 9.2134345
-},
-{
-  "type": "node",
-  "id": 414771282,
-  "lat": 49.1438565,
-  "lon": 9.2139991
 },
 {
   "type": "node",
@@ -7051,18 +6991,6 @@
 },
 {
   "type": "node",
-  "id": 619526792,
-  "lat": 49.1444185,
-  "lon": 9.2139145
-},
-{
-  "type": "node",
-  "id": 619526794,
-  "lat": 49.1444761,
-  "lon": 9.2138971
-},
-{
-  "type": "node",
   "id": 619526796,
   "lat": 49.1455381,
   "lon": 9.2125393
@@ -7075,18 +7003,6 @@
 },
 {
   "type": "node",
-  "id": 619526798,
-  "lat": 49.1459151,
-  "lon": 9.2126245
-},
-{
-  "type": "node",
-  "id": 619526799,
-  "lat": 49.1459436,
-  "lon": 9.2125603
-},
-{
-  "type": "node",
   "id": 619526800,
   "lat": 49.1456795,
   "lon": 9.2124625
@@ -7096,24 +7012,6 @@
   "id": 619526801,
   "lat": 49.1456516,
   "lon": 9.2124243
-},
-{
-  "type": "node",
-  "id": 619526803,
-  "lat": 49.1455926,
-  "lon": 9.2128027
-},
-{
-  "type": "node",
-  "id": 619526804,
-  "lat": 49.1457463,
-  "lon": 9.2127446
-},
-{
-  "type": "node",
-  "id": 619526805,
-  "lat": 49.1446222,
-  "lon": 9.2138083
 },
 {
   "type": "node",
@@ -7186,12 +7084,6 @@
   "id": 620098636,
   "lat": 49.1456973,
   "lon": 9.2123738
-},
-{
-  "type": "node",
-  "id": 620113272,
-  "lat": 49.1467262,
-  "lon": 9.2120222
 },
 {
   "type": "node",
@@ -7541,7 +7433,8 @@
     "amenity": "restaurant",
     "cuisine": "italian",
     "name": "allegro da umberto",
-    "website": "http://www.da-umberto.de/"
+    "website": "http://www.da-umberto.de/",
+    "wheelchair": "yes"
   }
 },
 {
@@ -8739,12 +8632,6 @@
 },
 {
   "type": "node",
-  "id": 826516314,
-  "lat": 49.1464220,
-  "lon": 9.2122073
-},
-{
-  "type": "node",
   "id": 827154295,
   "lat": 49.1421964,
   "lon": 9.2156355
@@ -8970,12 +8857,6 @@
   "id": 833204876,
   "lat": 49.1454593,
   "lon": 9.2126022
-},
-{
-  "type": "node",
-  "id": 833204901,
-  "lat": 49.1473216,
-  "lon": 9.2111885
 },
 {
   "type": "node",
@@ -9863,12 +9744,6 @@
   "id": 1094364431,
   "lat": 49.1456063,
   "lon": 9.2136941
-},
-{
-  "type": "node",
-  "id": 1094364462,
-  "lat": 49.1427691,
-  "lon": 9.2148847
 },
 {
   "type": "node",
@@ -10888,27 +10763,9 @@
 },
 {
   "type": "node",
-  "id": 1223695255,
-  "lat": 49.1431736,
-  "lon": 9.2145555
-},
-{
-  "type": "node",
   "id": 1223695259,
   "lat": 49.1425687,
   "lon": 9.2149736
-},
-{
-  "type": "node",
-  "id": 1223695262,
-  "lat": 49.1426288,
-  "lon": 9.2150323
-},
-{
-  "type": "node",
-  "id": 1223695264,
-  "lat": 49.1428924,
-  "lon": 9.2147974
 },
 {
   "type": "node",
@@ -12186,7 +12043,8 @@
   "lon": 9.2085377,
   "tags": {
     "bus": "yes",
-    "public_transport": "stop_position"
+    "public_transport": "stop_position",
+    "ref:IFOPT": "de:8121:1114:2:0"
   }
 },
 {
@@ -12245,12 +12103,6 @@
 },
 {
   "type": "node",
-  "id": 1641886191,
-  "lat": 49.1435406,
-  "lon": 9.2142439
-},
-{
-  "type": "node",
   "id": 1641886192,
   "lat": 49.1435591,
   "lon": 9.2066999
@@ -12260,18 +12112,6 @@
   "id": 1641886193,
   "lat": 49.1435976,
   "lon": 9.2066633
-},
-{
-  "type": "node",
-  "id": 1641886194,
-  "lat": 49.1442770,
-  "lon": 9.2139491
-},
-{
-  "type": "node",
-  "id": 1641886205,
-  "lat": 49.1444178,
-  "lon": 9.2139533
 },
 {
   "type": "node",
@@ -13236,6 +13076,7 @@
   "lon": 9.2080023,
   "tags": {
     "entrance": "main",
+    "ref:IFOPT": "de:8121:26:2",
     "wheelchair": "yes"
   }
 },
@@ -16609,6 +16450,24 @@
   "id": 3045925046,
   "lat": 49.1403578,
   "lon": 9.2119830
+},
+{
+  "type": "node",
+  "id": 3088937211,
+  "lat": 49.1466700,
+  "lon": 9.2114038
+},
+{
+  "type": "node",
+  "id": 3088937212,
+  "lat": 49.1469204,
+  "lon": 9.2111606
+},
+{
+  "type": "node",
+  "id": 3088937213,
+  "lat": 49.1471336,
+  "lon": 9.2110520
 },
 {
   "type": "node",
@@ -22713,6 +22572,18 @@
   "lon": 9.2178134
 },
 {
+  "type": "node",
+  "id": 3612248020,
+  "lat": 49.1468483,
+  "lon": 9.2117037
+},
+{
+  "type": "node",
+  "id": 3612248022,
+  "lat": 49.1472670,
+  "lon": 9.2110677
+},
+{
   "type": "way",
   "id": 18365510,
   "nodes": [
@@ -23333,7 +23204,7 @@
     "name": "Wasserkraftwerk",
     "operator": "ZEAG",
     "power": "generator",
-    "wikipedia:de": "Wasserkraftwerk_Heilbronn"
+    "wikipedia": "de:Wasserkraftwerk Heilbronn"
   }
 },
 {
@@ -23390,91 +23261,6 @@
     "building": "construction",
     "proposed:name": "Marra-Haus",
     "website": "http://www.kruck-partner.de/wohnbau/kaiserstr-hn.html"
-  }
-},
-{
-  "type": "way",
-  "id": 35049255,
-  "nodes": [
-    392386888,
-    3154660721,
-    392385909,
-    3154660720,
-    3154660719,
-    391092659,
-    3154660717,
-    3154660718,
-    3154660716,
-    392382384,
-    3154660715,
-    3154660714,
-    3154660713,
-    391092556,
-    3154660706,
-    2414191622,
-    3154674717,
-    3154674714,
-    412448885,
-    3154674715,
-    412448882,
-    412448881,
-    391092567,
-    3130993407,
-    393993841,
-    1223695275,
-    1223695194,
-    391092465,
-    3154674711,
-    3154674710,
-    3154674709,
-    410778892,
-    3154674704,
-    3154674703,
-    1223695287,
-    1223695190,
-    391090187,
-    1223695262,
-    410778890,
-    1094364462,
-    1223695264,
-    1223695255,
-    1641886191,
-    414771282,
-    409126691,
-    1641886194,
-    1641886205,
-    619526792,
-    619526794,
-    619526805,
-    409126690,
-    414771271,
-    409126689,
-    619526803,
-    619526804,
-    619526798,
-    619526799,
-    826516314,
-    411081805,
-    411081808,
-    620113272,
-    411081809,
-    411081810,
-    411081814,
-    619526806,
-    411075487,
-    619526807,
-    619526809,
-    619526808,
-    619526810,
-    619526811,
-    392386886,
-    411075490,
-    411075491,
-    392386887,
-    392386888
-  ],
-  "tags": {
-    "landuse": "grass"
   }
 },
 {
@@ -23650,8 +23436,8 @@
     "denomination": "catholic",
     "name": "St. Peter und Paul",
     "religion": "christian",
-    "wikipedia": "http://de.m.wikipedia.org/wiki/Deutschordensmünster_St._Peter_und_Paul_(Heilbronn)",
-    "wikipedia:de": "Deutschordensm%C3%BCnster_St._Peter_und_Paul_%28Heilbronn%29"
+    "wheelchair": "yes",
+    "wikipedia": "de:Deutschordensmünster St. Peter und Paul (Heilbronn)"
   }
 },
 {
@@ -23873,7 +23659,7 @@
     "historic": "yes",
     "man_made": "tower",
     "name": "Götzenturm",
-    "wikipedia:de": "Liste_der_Bauwerke_in_Heilbronn#G.C3.B6tzenturm"
+    "wikipedia": "de:Liste der Bauwerke in Heilbronn#G.C3.B6tzenturm"
   }
 },
 {
@@ -24388,7 +24174,7 @@
     "building": "yes",
     "historic": "building",
     "name": "Schießhaus",
-    "wikipedia:de": "Schie%C3%9Fhaus_%28Heilbronn%29"
+    "wikipedia": "de:Schießhaus (Heilbronn)"
   }
 },
 {
@@ -27712,7 +27498,8 @@
     "addr:street": "Bahnhofstraße",
     "amenity": "school",
     "building": "yes",
-    "name": "Kolping Bildungskolleg - Schule für Gestaltung"
+    "name": "Kolping Bildungskolleg - Schule für Gestaltung",
+    "wheelchair": "yes"
   }
 },
 {
@@ -28630,7 +28417,8 @@
     "building": "yes",
     "cuisine": "tarte_flambee",
     "name": "Pier 58",
-    "opening_hours": "Tu-Su 17:00-23:00"
+    "opening_hours": "Tu-Su 17:00-23:00",
+    "wheelchair": "limited"
   }
 },
 {
@@ -30334,8 +30122,11 @@
     620098629,
     620098630,
     620098632,
-    833204901,
-    411081812,
+    3612248022,
+    3088937213,
+    3088937212,
+    3088937211,
+    3612248020,
     409126687,
     619526800,
     619526801,

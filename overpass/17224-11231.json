@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API",
   "osm3s": {
-    "timestamp_osm_base": "2015-05-14T21:58:02Z",
+    "timestamp_osm_base": "2015-06-25T18:24:03Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -5900,7 +5900,8 @@
   "lon": 9.2307190,
   "tags": {
     "name": "Tscherning Weinberghaus",
-    "tourism": "attraction"
+    "tourism": "attraction",
+    "wheelchair": "no"
   }
 },
 {
@@ -6029,7 +6030,8 @@
   "lat": 49.1588969,
   "lon": 9.2339267,
   "tags": {
-    "amenity": "drinking_water"
+    "amenity": "drinking_water",
+    "wheelchair": "no"
   }
 },
 {
@@ -6965,11 +6967,12 @@
 {
   "type": "node",
   "id": 1192762755,
-  "lat": 49.1595766,
-  "lon": 9.2354554,
+  "lat": 49.1595773,
+  "lon": 9.2354534,
   "tags": {
     "name": "16: Wartbergturm",
-    "tourism": "viewpoint"
+    "tourism": "viewpoint",
+    "wheelchair": "no"
   }
 },
 {
@@ -6987,8 +6990,8 @@
 {
   "type": "node",
   "id": 1192762817,
-  "lat": 49.1595672,
-  "lon": 9.2354177
+  "lat": 49.1595666,
+  "lon": 9.2354129
 },
 {
   "type": "node",
@@ -6999,8 +7002,8 @@
 {
   "type": "node",
   "id": 1192762896,
-  "lat": 49.1595775,
-  "lon": 9.2354447
+  "lat": 49.1595782,
+  "lon": 9.2354418
 },
 {
   "type": "node",
@@ -7017,8 +7020,8 @@
 {
   "type": "node",
   "id": 1192762969,
-  "lat": 49.1595418,
-  "lon": 9.2354725
+  "lat": 49.1595407,
+  "lon": 9.2354714
 },
 {
   "type": "node",
@@ -7030,7 +7033,7 @@
   "type": "node",
   "id": 1192763041,
   "lat": 49.1595688,
-  "lon": 9.2354729
+  "lon": 9.2354721
 },
 {
   "type": "node",
@@ -7053,8 +7056,8 @@
 {
   "type": "node",
   "id": 1192763117,
-  "lat": 49.1595483,
-  "lon": 9.2354779
+  "lat": 49.1595473,
+  "lon": 9.2354770
 },
 {
   "type": "node",
@@ -7071,8 +7074,8 @@
 {
   "type": "node",
   "id": 1192763179,
-  "lat": 49.1595736,
-  "lon": 9.2354651
+  "lat": 49.1595741,
+  "lon": 9.2354638
 },
 {
   "type": "node",
@@ -7083,8 +7086,8 @@
 {
   "type": "node",
   "id": 1192763246,
-  "lat": 49.1595340,
-  "lon": 9.2354536
+  "lat": 49.1595326,
+  "lon": 9.2354519
 },
 {
   "type": "node",
@@ -7101,8 +7104,8 @@
 {
   "type": "node",
   "id": 1192763351,
-  "lat": 49.1595356,
-  "lon": 9.2354315
+  "lat": 49.1595340,
+  "lon": 9.2354289
 },
 {
   "type": "node",
@@ -7113,8 +7116,8 @@
 {
   "type": "node",
   "id": 1192763435,
-  "lat": 49.1595369,
-  "lon": 9.2354641
+  "lat": 49.1595356,
+  "lon": 9.2354627
 },
 {
   "type": "node",
@@ -7125,14 +7128,14 @@
 {
   "type": "node",
   "id": 1192763476,
-  "lat": 49.1595556,
-  "lon": 9.2354797
+  "lat": 49.1595547,
+  "lon": 9.2354790
 },
 {
   "type": "node",
   "id": 1192763540,
-  "lat": 49.1595336,
-  "lon": 9.2354424
+  "lat": 49.1595320,
+  "lon": 9.2354402
 },
 {
   "type": "node",
@@ -7162,7 +7165,7 @@
   "type": "node",
   "id": 1192763693,
   "lat": 49.1595725,
-  "lon": 9.2354248
+  "lon": 9.2354204
 },
 {
   "type": "node",
@@ -7179,8 +7182,8 @@
 {
   "type": "node",
   "id": 1192763718,
-  "lat": 49.1595760,
-  "lon": 9.2354341
+  "lat": 49.1595765,
+  "lon": 9.2354304
 },
 {
   "type": "node",
@@ -8145,32 +8148,32 @@
 {
   "type": "node",
   "id": 2615018556,
-  "lat": 49.1595399,
-  "lon": 9.2354223
+  "lat": 49.1595383,
+  "lon": 9.2354192
 },
 {
   "type": "node",
   "id": 2615018557,
-  "lat": 49.1595459,
-  "lon": 9.2354157
+  "lat": 49.1595444,
+  "lon": 9.2354122
 },
 {
   "type": "node",
   "id": 2615018559,
-  "lat": 49.1595531,
-  "lon": 9.2354126
+  "lat": 49.1595517,
+  "lon": 9.2354086
 },
 {
   "type": "node",
   "id": 2615018560,
-  "lat": 49.1595604,
-  "lon": 9.2354133
+  "lat": 49.1595594,
+  "lon": 9.2354089
 },
 {
   "type": "node",
   "id": 2615018561,
-  "lat": 49.1595625,
-  "lon": 9.2354780
+  "lat": 49.1595621,
+  "lon": 9.2354773
 },
 {
   "type": "node",
@@ -13153,7 +13156,8 @@
     "denomination": "protestant",
     "name": "Wartbergkirche",
     "religion": "christian",
-    "source": "LGL, www.lgl-bw.de"
+    "source": "LGL, www.lgl-bw.de",
+    "wheelchair": "limited"
   }
 },
 {
