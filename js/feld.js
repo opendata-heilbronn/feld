@@ -236,6 +236,10 @@ var wayPoints = {
     }
 };
 
+setInterval(function() {
+    console.log("Theta: " + city.webgl.camera.theta, "Phi: " + city.webgl.camera.phi, "Geo: " + city.geo.center);
+}, 1000);
+
 var triggerTween = function (city, wayPoint) {
     console.log('start tween');
     var options = city.webgl.camera.serialize();
