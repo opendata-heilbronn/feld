@@ -305,8 +305,8 @@ city.init({
 
     var buildings = [], features = [];
     var ensemble_colours = {
-        'Suedschenkel': 0xBBD8FF,
-        'Westschenkel': 0xCAFFAA
+        'Esplanadenschenkel': 0xBBD8FF,
+        'Inselschenkel': 0xCAFFAA
     };
 
     $.getJSON('buildings.geojson', function (geojson) {
