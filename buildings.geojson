@@ -750,6 +750,7 @@
             "id": "way/-673",
             "properties": {
                 "maxfloors" : "5",
+                "ensemble": "Neckarschenkel",
                 "type": "way",
                 "id": "-673",
                 "tags": {
@@ -791,6 +792,7 @@
             "id": "way/-671",
             "properties": {
                 "maxfloors" : "4",
+                "ensemble": "Neckarschenkel",
                 "type": "way",
                 "id": "-671",
                 "tags": {
@@ -832,6 +834,7 @@
             "id": "way/-669",
             "properties": {
                 "maxfloors" : "4",
+                "ensemble": "Neckarschenkel",
                 "type": "way",
                 "id": "-669",
                 "tags": {
@@ -873,6 +876,7 @@
             "id": "way/-667",
             "properties": {
                 "maxfloors" : "5",
+                "ensemble": "Neckarschenkel",
                 "type": "way",
                 "id": "-667",
                 "tags": {
@@ -914,6 +918,7 @@
             "id": "way/-665",
             "properties": {
                 "maxfloors" : "5",
+                "ensemble": "Neckarschenkel",
                 "type": "way",
                 "id": "-665",
                 "tags": {
@@ -955,6 +960,7 @@
             "id": "way/-663",
             "properties": {
                 "maxfloors" : "4",
+                "ensemble": "Neckarschenkel",
                 "type": "way",
                 "id": "-663",
                 "tags": {
@@ -996,6 +1002,7 @@
             "id": "way/-661",
             "properties": {
                 "maxfloors" : "4",
+                "ensemble": "Neckarschenkel",
                 "type": "way",
                 "id": "-661",
                 "tags": {
@@ -1037,6 +1044,7 @@
             "id": "way/-659",
             "properties": {
                 "maxfloors" : "5",
+                "ensemble": "Neckarschenkel",
                 "type": "way",
                 "id": "-659",
                 "tags": {
@@ -1078,6 +1086,7 @@
             "id": "way/-657",
             "properties": {
                 "maxfloors" : "4",
+                "ensemble": "Neckarschenkel",
                 "type": "way",
                 "id": "-657",
                 "tags": {
@@ -1119,6 +1128,7 @@
             "id": "way/-655",
             "properties": {
                 "maxfloors" : "5",
+                "ensemble": "Neckarschenkel",
                 "type": "way",
                 "id": "-655",
                 "tags": {
@@ -1160,6 +1170,7 @@
             "id": "way/-653",
             "properties": {
                 "maxfloors" : "5",
+                "ensemble": "Neckarschenkel",
                 "type": "way",
                 "id": "-653",
                 "tags": {
@@ -1908,6 +1919,7 @@
             "id": "way/-617",
             "properties": {
                 "maxfloors" : "6",
+                "ensemble": "Neckarschenkel",
                 "type": "way",
                 "id": "-617",
                 "tags": {
@@ -1965,6 +1977,7 @@
             "id": "way/-615",
             "properties": {
                 "maxfloors" : "7",
+                "ensemble": "Neckarschenkel",
                 "type": "way",
                 "id": "-615",
                 "tags": {
