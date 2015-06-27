@@ -306,8 +306,9 @@ city.init({
     var buildings = [], features = [];
     var ensemble_colours = {
         'Esplanadenschenkel': 0xBBD8FF,
-        'Inselschenkel': 0xCAFFAA
-    };
+        'Inselschenkel': 0xCAFFAA, 
+        'Neckarschenkel': 0xFFAE85
+    }
 
     $.getJSON('buildings.geojson', function (geojson) {
         var ensemble;
@@ -330,7 +331,7 @@ city.init({
             if(ensemble_colours[feature.properties.ensemble]) {
                 color = ensemble_colours[feature.properties.ensemble];
             } else {
-                color = 0xFFAE85;
+                color = 0xFF00FF;
             }
 
             var material = new THREE.MeshLambertMaterial({
