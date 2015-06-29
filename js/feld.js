@@ -162,7 +162,7 @@ var wayPoints = {
             "controls": {"enable": true},
             "target": [-1470.438942166035, 716.3654002568528],
             "cameraRadius": 1996,
-            "theta": 252,
+            "theta": 132,
             "phi": 91,
             "zoomCapLow": 250,
             "zoomCapHigh": 2000,
